@@ -3,12 +3,18 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const cors = require('cors');
+const mongoose = require('mongoose');
 const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
 const { isAuthenticated } = require('./middleware/auth');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Connect to MongoDB
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log('✅ Connected to MongoDB'))
+  .catch((err) => console.error('❌ MongoDB connection error:', err));
 
 // Middleware
 app.use(express.json());

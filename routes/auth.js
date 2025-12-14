@@ -81,7 +81,7 @@ router.get('/user', (req, res) => {
     res.json({
       success: true,
       user: {
-        id: req.user.id,
+        id: req.user._id || req.user.id,
         email: req.user.email,
         displayName: req.user.displayName,
         firstName: req.user.firstName,
