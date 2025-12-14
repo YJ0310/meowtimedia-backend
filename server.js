@@ -75,8 +75,13 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-  console.log(`📝 Google OAuth login: http://localhost:${PORT}/auth/google`);
-});
+// Start server (only in non-serverless environment)
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server running on http://localhost:${PORT}`);
+    console.log(`📝 Google OAuth login: http://localhost:${PORT}/auth/google`);
+  });
+}
+
+// Export for Vercel serverless
+module.exports = app;
