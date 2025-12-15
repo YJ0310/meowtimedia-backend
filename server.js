@@ -3,18 +3,24 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const cors = require('cors');
-const mongoose = require('mongoose');
 const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
 const { isAuthenticated } = require('./middleware/auth');
+const connectDB = require('./lib/mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI, { dbName: 'meowtimedia' })
-  .then(() => console.log('✅ Connected to MongoDB (meowtimedia)'))
-  .catch((err) => console.error('❌ MongoDB connection error:', err));
+// Middleware to ensure DB connection on each request (for serverless)
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (error) {
+    console.error('Database connection failed:', error);
+    res.status(500).json({ success: false, message: 'Database connection failed' });
+  }
+});
 
 // Middleware
 app.use(express.json());
