@@ -1,10 +1,64 @@
 const express = require('express');
 const router = express.Router();
-const { Content, Question, User } = require('../models');
+const { Content, Question, User, SimpleFunFact } = require('../models');
 const { isAuthenticated } = require('../middleware/auth');
 
 // Stamp unlock threshold - minimum score percentage to earn a stamp
 const STAMP_THRESHOLD = 0.8; // 80% (8/10 correct)
+
+/**
+ * @route   GET /country/funfacts
+ * @desc    Get all simple fun facts (for loading screens)
+ * @access  Public
+ */
+router.get('/funfacts', async (req, res) => {
+  try {
+    const funfacts = await SimpleFunFact.find({});
+    
+    // Transform to a simpler format: { country: [facts] }
+    const result = {};
+    funfacts.forEach(doc => {
+      // Normalize country name to slug format
+      const slug = doc.country.toLowerCase().replace(/\s+/g, '-');
+      result[slug] = doc.funfact;
+    });
+
+    res.json({
+      success: true,
+      funfacts: result,
+    });
+  } catch (error) {
+    console.error('Error fetching fun facts:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching fun facts',
+    });
+  }
+});
+
+/**
+ * @route   GET /country/count
+ * @desc    Get total number of available countries
+ * @access  Public
+ */
+router.get('/count', async (req, res) => {
+  try {
+    // Get unique countries from SimpleFunFact collection
+    const countries = await SimpleFunFact.distinct('country');
+    
+    res.json({
+      success: true,
+      count: countries.length,
+      countries: countries.map(c => c.toLowerCase().replace(/\s+/g, '-')),
+    });
+  } catch (error) {
+    console.error('Error fetching country count:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching country count',
+    });
+  }
+});
 
 /**
  * @route   GET /country/:slug
