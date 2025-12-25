@@ -1,37 +1,30 @@
 const mongoose = require('mongoose');
 
 /**
- * Quiz Schema
+ * Question Schema
  * 
- * Stores quiz data for different countries and topics.
- * Each quiz contains multiple choice questions.
+ * Stores individual quiz questions for different countries.
+ * Each document is a single question with multiple choice options.
  * 
  * Example document:
  * {
- *   "country": "Malaysia",
- *   "quiz_title": "Kuala Lumpur Landmarks",
- *   "difficulty": "Easy",
- *   "description": "A quick test on the most famous sites in Malaysia's capital city.",
- *   "questions": [
- *     {
- *       "id": 1,
- *       "text": "What is the name of the iconic twin skyscrapers in Kuala Lumpur?",
- *       "options": {
- *         "A": "Menara Kuala Lumpur",
- *         "B": "Petronas Twin Towers",
- *         "C": "Exchange 106",
- *         "D": "The St. Regis KL"
- *       },
- *       "correctAnswer": "B"
- *     }
- *   ]
+ *   "country": "japan",
+ *   "text": "When is Shogatsu celebrated?",
+ *   "answer": "A",
+ *   "options": {
+ *     "A": "January 1",
+ *     "B": "March 1",
+ *     "C": "July 1",
+ *     "D": "December 31"
+ *   }
  * }
  */
 
 const questionSchema = new mongoose.Schema({
-  id: {
-    type: Number,
+  country: {
+    type: String,
     required: true,
+    index: true,
   },
   text: {
     type: String,
@@ -43,52 +36,14 @@ const questionSchema = new mongoose.Schema({
     C: { type: String, required: true },
     D: { type: String, required: true },
   },
-  correctAnswer: {
+  answer: {
     type: String,
     required: true,
     enum: ['A', 'B', 'C', 'D'],
   },
-}, { _id: false });
-
-const quizSchema = new mongoose.Schema({
-  country: {
-    type: String,
-    required: true,
-    index: true,
-  },
-  quiz_title: {
-    type: String,
-    required: true,
-  },
-  difficulty: {
-    type: String,
-    required: true,
-    enum: ['Easy', 'Medium', 'Hard'],
-  },
-  description: {
-    type: String,
-  },
-  questions: {
-    type: [questionSchema],
-    required: true,
-    validate: {
-      validator: function(v) {
-        return v.length > 0;
-      },
-      message: 'A quiz must have at least one question',
-    },
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-  updatedAt: {
-    type: Date,
-    default: Date.now,
-  },
 });
 
 // Index for efficient country queries
-quizSchema.index({ country: 1, difficulty: 1 });
+questionSchema.index({ country: 1 });
 
-module.exports = mongoose.model('Quiz', quizSchema);
+module.exports = mongoose.model('Question', questionSchema, 'questions');

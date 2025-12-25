@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Content, Quiz, User } = require('../models');
+const { Content, Question, User } = require('../models');
 const { isAuthenticated } = require('../middleware/auth');
 
 // Stamp unlock threshold - minimum score percentage to earn a stamp
@@ -95,35 +95,20 @@ router.get('/:slug/quiz', async (req, res) => {
     const { slug } = req.params;
     const QUIZ_SIZE = 10; // Number of questions per quiz
     
-    // Normalize slug for database query
+    // Normalize slug for database query (e.g., "south-korea" -> "south_korea")
     const countryName = slug.replace(/-/g, '_');
     
-    // Find quizzes for this country
-    const quizzes = await Quiz.find({ 
+    // Find all questions for this country
+    const allQuestions = await Question.find({ 
       country: { $regex: new RegExp(`^${countryName}$`, 'i') }
     });
 
-    if (!quizzes || quizzes.length === 0) {
+    if (!allQuestions || allQuestions.length === 0) {
       return res.status(404).json({
         success: false,
         message: 'Quiz not found for this country',
       });
     }
-
-    // Combine all questions from all quizzes for this country
-    const allQuestions = quizzes.flatMap(quiz => 
-      quiz.questions.map(q => ({
-        originalId: q.id,
-        question: q.text,
-        options: {
-          A: q.options.A,
-          B: q.options.B,
-          C: q.options.C,
-          D: q.options.D,
-        },
-        correctAnswer: q.correctAnswer, // 'A', 'B', 'C', or 'D'
-      }))
-    );
 
     // Shuffle all questions and take random 10 (or less if not enough)
     const shuffledQuestions = shuffleArray(allQuestions);
@@ -142,12 +127,12 @@ router.get('/:slug/quiz', async (req, res) => {
       // Shuffle the options
       const shuffledOptions = shuffleArray(optionsArray);
 
-      // Find the new index of the correct answer
-      const correctAnswerIndex = shuffledOptions.findIndex(opt => opt.key === q.correctAnswer);
+      // Find the new index of the correct answer (using q.answer instead of q.correctAnswer)
+      const correctAnswerIndex = shuffledOptions.findIndex(opt => opt.key === q.answer);
 
       return {
         id: index + 1,
-        question: q.question,
+        question: q.text,
         options: shuffledOptions.map(opt => opt.text),
         correctAnswer: correctAnswerIndex,
       };

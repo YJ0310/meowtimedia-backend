@@ -1,0 +1,2800 @@
+[{
+  "_id": {
+    "$oid": "694802a6c2ba4cc5447385fb"
+  },
+  "country": "japan",
+  "text": "When is Shogatsu celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "January 1",
+    "B": "March 1",
+    "C": "July 1",
+    "D": "December 31"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc5447385fc"
+  },
+  "country": "japan",
+  "text": "What are the bells rung 108 times on New Year's Eve called?",
+  "answer": "C",
+  "options": {
+    "A": "Hatsumode",
+    "B": "Osechi",
+    "C": "Joya no Kane",
+    "D": "Otoshidama"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc5447385fd"
+  },
+  "country": "japan",
+  "text": "What is the first shrine visit of the year called?",
+  "answer": "B",
+  "options": {
+    "A": "Joya no Kane",
+    "B": "Hatsumode",
+    "C": "Mukaebi",
+    "D": "Tanabata"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc5447385fe"
+  },
+  "country": "japan",
+  "text": "What are the money envelopes given to children during New Year called?",
+  "answer": "D",
+  "options": {
+    "A": "Omamori",
+    "B": "Tanzaku",
+    "C": "Chimaki",
+    "D": "Otoshidama"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc5447385ff"
+  },
+  "country": "japan",
+  "text": "When does Hanami typically occur?",
+  "answer": "B",
+  "options": {
+    "A": "January to February",
+    "B": "Late March to Early April",
+    "C": "June to July",
+    "D": "October to November"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738600"
+  },
+  "country": "japan",
+  "text": "Which period saw the shift from plum to cherry blossoms?",
+  "answer": "C",
+  "options": {
+    "A": "Nara Period",
+    "B": "Kamakura Period",
+    "C": "Heian Period",
+    "D": "Edo Period"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738601"
+  },
+  "country": "japan",
+  "text": "What is nighttime cherry blossom viewing called?",
+  "answer": "A",
+  "options": {
+    "A": "Yozakura",
+    "B": "Hanami",
+    "C": "Hatsumode",
+    "D": "Bon Odori"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738602"
+  },
+  "country": "japan",
+  "text": "When did Gion Matsuri originate?",
+  "answer": "D",
+  "options": {
+    "A": "710 AD",
+    "B": "794 AD",
+    "C": "1000 AD",
+    "D": "869 AD"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738603"
+  },
+  "country": "japan",
+  "text": "What are the massive wooden floats in Gion Matsuri called?",
+  "answer": "B",
+  "options": {
+    "A": "Yagura",
+    "B": "Yamaboko",
+    "C": "Chimaki",
+    "D": "Tanzaku"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738604"
+  },
+  "country": "japan",
+  "text": "How much can the Gion Matsuri floats weigh?",
+  "answer": "C",
+  "options": {
+    "A": "5 tons",
+    "B": "8 tons",
+    "C": "12 tons",
+    "D": "20 tons"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738605"
+  },
+  "country": "japan",
+  "text": "What are the straw amulets bought during Gion Matsuri called?",
+  "answer": "A",
+  "options": {
+    "A": "Chimaki",
+    "B": "Omamori",
+    "C": "Tanzaku",
+    "D": "Origami"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738606"
+  },
+  "country": "japan",
+  "text": "When is Obon celebrated?",
+  "answer": "D",
+  "options": {
+    "A": "January 1",
+    "B": "March 3",
+    "C": "July 7",
+    "D": "August 13-16"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738607"
+  },
+  "country": "japan",
+  "text": "What are the welcoming fires lit during Obon called?",
+  "answer": "B",
+  "options": {
+    "A": "Okuribi",
+    "B": "Mukaebi",
+    "C": "Hatsumode",
+    "D": "Joya no Kane"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738608"
+  },
+  "country": "japan",
+  "text": "What is the circle dance performed during Obon called?",
+  "answer": "C",
+  "options": {
+    "A": "Yoiyama",
+    "B": "Hanami",
+    "C": "Bon Odori",
+    "D": "Tanabata"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738609"
+  },
+  "country": "japan",
+  "text": "What are the floating lanterns sent down rivers called?",
+  "answer": "A",
+  "options": {
+    "A": "Toro Nagashi",
+    "B": "Mukaebi",
+    "C": "Okuribi",
+    "D": "Yozakura"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860a"
+  },
+  "country": "japan",
+  "text": "What is Tanabata also known as?",
+  "answer": "D",
+  "options": {
+    "A": "Moon Festival",
+    "B": "Lantern Festival",
+    "C": "Cherry Blossom Festival",
+    "D": "Star Festival"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860b"
+  },
+  "country": "japan",
+  "text": "Who is the Weaver Princess in the Tanabata legend?",
+  "answer": "B",
+  "options": {
+    "A": "Hikoboshi",
+    "B": "Orihime",
+    "C": "Mokuren",
+    "D": "Toshigami"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860c"
+  },
+  "country": "japan",
+  "text": "What are the wish papers hung on bamboo during Tanabata called?",
+  "answer": "C",
+  "options": {
+    "A": "Origami",
+    "B": "Chimaki",
+    "C": "Tanzaku",
+    "D": "Omamori"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860d"
+  },
+  "country": "japan",
+  "text": "What is traditional Japanese cuisine called?",
+  "answer": "A",
+  "options": {
+    "A": "Washoku",
+    "B": "Sushi",
+    "C": "Osechi",
+    "D": "Miso"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860e"
+  },
+  "country": "japan",
+  "text": "What is the savory taste in Japanese cuisine called?",
+  "answer": "D",
+  "options": {
+    "A": "Shun",
+    "B": "Dashi",
+    "C": "Miso",
+    "D": "Umami"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473860f"
+  },
+  "country": "japan",
+  "text": "Who invented modern sushi in 1824?",
+  "answer": "B",
+  "options": {
+    "A": "Mokuren",
+    "B": "Hanaya Yohei",
+    "C": "Emperor Nara",
+    "D": "Yasaka"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738610"
+  },
+  "country": "japan",
+  "text": "What is vinegared sushi rice called?",
+  "answer": "C",
+  "options": {
+    "A": "Dashi",
+    "B": "Miso",
+    "C": "Sumeshi",
+    "D": "Shun"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738611"
+  },
+  "country": "japan",
+  "text": "What do black beans in Osechi Ryori represent?",
+  "answer": "A",
+  "options": {
+    "A": "Diligence",
+    "B": "Fertility",
+    "C": "Wealth",
+    "D": "Longevity"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738612"
+  },
+  "country": "japan",
+  "text": "What does herring roe symbolize in Osechi Ryori?",
+  "answer": "B",
+  "options": {
+    "A": "Diligence",
+    "B": "Fertility",
+    "C": "Good luck",
+    "D": "Health"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738613"
+  },
+  "country": "japan",
+  "text": "What are the tiered boxes used for Osechi called?",
+  "answer": "D",
+  "options": {
+    "A": "Yagura",
+    "B": "Yamaboko",
+    "C": "Tanzaku",
+    "D": "Ju-bako"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738614"
+  },
+  "country": "japan",
+  "text": "What is the stock base for miso soup called?",
+  "answer": "C",
+  "options": {
+    "A": "Umami",
+    "B": "Sumeshi",
+    "C": "Dashi",
+    "D": "Shun"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738615"
+  },
+  "country": "japan",
+  "text": "When was miso introduced to Japan from China?",
+  "answer": "A",
+  "options": {
+    "A": "7th century Asuka period",
+    "B": "8th century Nara period",
+    "C": "10th century Heian period",
+    "D": "12th century Kamakura period"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738616"
+  },
+  "country": "japan",
+  "text": "What is the cherry blossom forecast called?",
+  "answer": "B",
+  "options": {
+    "A": "Hanami Zensen",
+    "B": "Sakura Zensen",
+    "C": "Yozakura Report",
+    "D": "Shun Forecast"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738617"
+  },
+  "country": "japan",
+  "text": "Which agency provides the cherry blossom forecast?",
+  "answer": "D",
+  "options": {
+    "A": "Japan Tourism Board",
+    "B": "Ministry of Culture",
+    "C": "National Park Service",
+    "D": "Japan Meteorological Agency"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738618"
+  },
+  "country": "japan",
+  "text": "Why is the bottom tier of jubako traditionally left empty?",
+  "answer": "C",
+  "options": {
+    "A": "For leftovers",
+    "B": "For decoration",
+    "C": "To allow space for more good fortune",
+    "D": "To reduce weight"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738619"
+  },
+  "country": "japan",
+  "text": "How many people per vending machine are there in Japan?",
+  "answer": "A",
+  "options": {
+    "A": "1 per 40 people",
+    "B": "1 per 100 people",
+    "C": "1 per 20 people",
+    "D": "1 per 60 people"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861a"
+  },
+  "country": "japan",
+  "text": "How many vending machines are there in Japan?",
+  "answer": "B",
+  "options": {
+    "A": "1 million",
+    "B": "Over 2.6 million",
+    "C": "5 million",
+    "D": "500,000"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861b"
+  },
+  "country": "japan",
+  "text": "What does Inemuri literally translate to?",
+  "answer": "D",
+  "options": {
+    "A": "Deep sleep",
+    "B": "Power nap",
+    "C": "Workplace rest",
+    "D": "Being present while sleeping"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861c"
+  },
+  "country": "japan",
+  "text": "What does Inemuri signify in Japanese work culture?",
+  "answer": "C",
+  "options": {
+    "A": "Laziness",
+    "B": "Poor health",
+    "C": "Diligence and hard work",
+    "D": "Need for vacation"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861d"
+  },
+  "country": "japan",
+  "text": "How many times are temple bells rung during Joya no Kane?",
+  "answer": "A",
+  "options": {
+    "A": "108 times",
+    "B": "100 times",
+    "C": "88 times",
+    "D": "365 times"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861e"
+  },
+  "country": "japan",
+  "text": "What do the 108 bell rings represent?",
+  "answer": "B",
+  "options": {
+    "A": "Days of celebration",
+    "B": "Worldly desires to banish",
+    "C": "Years of tradition",
+    "D": "Ancestral spirits"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc54473861f"
+  },
+  "country": "japan",
+  "text": "What are the charms purchased at shrines called?",
+  "answer": "D",
+  "options": {
+    "A": "Tanzaku",
+    "B": "Chimaki",
+    "C": "Otoshidama",
+    "D": "Omamori"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738620"
+  },
+  "country": "japan",
+  "text": "Which city is famous for Gion Matsuri?",
+  "answer": "C",
+  "options": {
+    "A": "Tokyo",
+    "B": "Osaka",
+    "C": "Kyoto",
+    "D": "Sendai"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738621"
+  },
+  "country": "japan",
+  "text": "Which city transforms shopping arcades with streamers during Tanabata?",
+  "answer": "A",
+  "options": {
+    "A": "Sendai",
+    "B": "Kyoto",
+    "C": "Tokyo",
+    "D": "Osaka"
+  }
+},
+{
+  "_id": {
+    "$oid": "694802a6c2ba4cc544738622"
+  },
+  "country": "japan",
+  "text": "What soup is eaten during New Year celebrations?",
+  "answer": "B",
+  "options": {
+    "A": "Miso soup",
+    "B": "Ozoni",
+    "C": "Ramen",
+    "D": "Udon"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738623"
+  },
+  "country": "indonesia",
+  "text": "What does Nyepi mark in Bali?",
+  "answer": "A",
+  "options": {
+    "A": "New Year of the Saka calendar",
+    "B": "Victory of dharma over evil",
+    "C": "Buddha's enlightenment",
+    "D": "Harvest celebration"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738624"
+  },
+  "country": "indonesia",
+  "text": "What are the giant demonic statues paraded on Pengerupukan called?",
+  "answer": "B",
+  "options": {
+    "A": "Penjor",
+    "B": "Ogoh-Ogoh",
+    "C": "Barong",
+    "D": "Gunungan"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738625"
+  },
+  "country": "indonesia",
+  "text": "How many prohibitions are there during Nyepi?",
+  "answer": "C",
+  "options": {
+    "A": "Two",
+    "B": "Three",
+    "C": "Four",
+    "D": "Five"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738626"
+  },
+  "country": "indonesia",
+  "text": "What are the island guardians who patrol during Nyepi called?",
+  "answer": "D",
+  "options": {
+    "A": "Barong",
+    "B": "Wali Songo",
+    "C": "Tenggerese",
+    "D": "Pecalang"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738627"
+  },
+  "country": "indonesia",
+  "text": "How often is Galungan celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "Every 210 days",
+    "B": "Every 365 days",
+    "C": "Every 180 days",
+    "D": "Every 100 days"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738628"
+  },
+  "country": "indonesia",
+  "text": "What is a Penjor?",
+  "answer": "B",
+  "options": {
+    "A": "A demonic statue",
+    "B": "A decorated bamboo pole",
+    "C": "A traditional dance",
+    "D": "A type of offering"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738629"
+  },
+  "country": "indonesia",
+  "text": "What does Penjor symbolize?",
+  "answer": "C",
+  "options": {
+    "A": "Evil spirits",
+    "B": "The ocean",
+    "C": "Mount Agung",
+    "D": "The sun"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862a"
+  },
+  "country": "indonesia",
+  "text": "What is the spiced meat and vegetable dish served during Galungan?",
+  "answer": "D",
+  "options": {
+    "A": "Rendang",
+    "B": "Tempeh",
+    "C": "Tumpeng",
+    "D": "Lawar"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862b"
+  },
+  "country": "indonesia",
+  "text": "When is Yadnya Kasada celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "14th day of the Kasada month",
+    "B": "1st day of the 10th month",
+    "C": "Full moon of the 4th month",
+    "D": "12th of Rabi al-Awwal"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862c"
+  },
+  "country": "indonesia",
+  "text": "Which volcano is central to the Yadnya Kasada ceremony?",
+  "answer": "B",
+  "options": {
+    "A": "Mount Agung",
+    "B": "Mount Bromo",
+    "C": "Mount Semeru",
+    "D": "Mount Merapi"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862d"
+  },
+  "country": "indonesia",
+  "text": "Who were the legendary couple in the Yadnya Kasada story?",
+  "answer": "C",
+  "options": {
+    "A": "Wali Songo",
+    "B": "Mayadenawa and Indra",
+    "C": "Roro Anteng and Joko Seger",
+    "D": "Siddhartha Gautama"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862e"
+  },
+  "country": "indonesia",
+  "text": "What do people throw into the crater during Yadnya Kasada?",
+  "answer": "D",
+  "options": {
+    "A": "Money",
+    "B": "Lanterns",
+    "C": "Statues",
+    "D": "Crops and livestock"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473862f"
+  },
+  "country": "indonesia",
+  "text": "Who were the nine saints that originated Sekaten?",
+  "answer": "A",
+  "options": {
+    "A": "Wali Songo",
+    "B": "Tenggerese",
+    "C": "Minangkabau",
+    "D": "Pecalang"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738630"
+  },
+  "country": "indonesia",
+  "text": "How many days is Sekaten's sacred Gamelan played?",
+  "answer": "B",
+  "options": {
+    "A": "Five days",
+    "B": "Seven days",
+    "C": "Ten days",
+    "D": "Three days"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738631"
+  },
+  "country": "indonesia",
+  "text": "What are the mountains of food called in Sekaten?",
+  "answer": "C",
+  "options": {
+    "A": "Penjor",
+    "B": "Tumpeng",
+    "C": "Gunungan",
+    "D": "Lawar"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738632"
+  },
+  "country": "indonesia",
+  "text": "What is believed about hearing Sekaten's Gamelan music?",
+  "answer": "D",
+  "options": {
+    "A": "It brings wealth",
+    "B": "It grants wisdom",
+    "C": "It ensures safety",
+    "D": "It rewards youthfulness"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738633"
+  },
+  "country": "indonesia",
+  "text": "What does Waisak commemorate?",
+  "answer": "A",
+  "options": {
+    "A": "Buddha's birth, enlightenment, and passing",
+    "B": "Victory over evil",
+    "C": "New Year celebration",
+    "D": "Harvest thanksgiving"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738634"
+  },
+  "country": "indonesia",
+  "text": "Where is Waisak primarily celebrated?",
+  "answer": "B",
+  "options": {
+    "A": "Mount Bromo",
+    "B": "Borobudur Temple",
+    "C": "Royal Palace",
+    "D": "Mount Agung"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738635"
+  },
+  "country": "indonesia",
+  "text": "What is the procession of walking around the temple called?",
+  "answer": "C",
+  "options": {
+    "A": "Pengerupukan",
+    "B": "Grebeg Mulud",
+    "C": "Pradaksina",
+    "D": "Parinirvana"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738636"
+  },
+  "country": "indonesia",
+  "text": "How many times do devotees walk around the temple during Waisak?",
+  "answer": "D",
+  "options": {
+    "A": "Once",
+    "B": "Twice",
+    "C": "Five times",
+    "D": "Three times"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738637"
+  },
+  "country": "indonesia",
+  "text": "What is Indonesian cuisine often called?",
+  "answer": "A",
+  "options": {
+    "A": "Spice Island cuisine",
+    "B": "Rice Island cuisine",
+    "C": "Tropical cuisine",
+    "D": "Island paradise cuisine"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738638"
+  },
+  "country": "indonesia",
+  "text": "What is Kecap Manis?",
+  "answer": "B",
+  "options": {
+    "A": "Fermented beans",
+    "B": "Sweet soy sauce",
+    "C": "Spice mixture",
+    "D": "Coconut milk"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738639"
+  },
+  "country": "indonesia",
+  "text": "Which people created Rendang in the 16th century?",
+  "answer": "C",
+  "options": {
+    "A": "Tenggerese",
+    "B": "Javanese",
+    "C": "Minangkabau",
+    "D": "Balinese"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863a"
+  },
+  "country": "indonesia",
+  "text": "What does Marandang mean?",
+  "answer": "D",
+  "options": {
+    "A": "Spicy",
+    "B": "Delicious",
+    "C": "Sacred",
+    "D": "Slowly"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863b"
+  },
+  "country": "indonesia",
+  "text": "How long can authentic dry Rendang last at room temperature?",
+  "answer": "A",
+  "options": {
+    "A": "Up to three weeks",
+    "B": "One week",
+    "C": "Five days",
+    "D": "One month"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863c"
+  },
+  "country": "indonesia",
+  "text": "What shape is Nasi Tumpeng?",
+  "answer": "B",
+  "options": {
+    "A": "Square",
+    "B": "Cone",
+    "C": "Round",
+    "D": "Pyramid"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863d"
+  },
+  "country": "indonesia",
+  "text": "How many elements typically surround Nasi Tumpeng?",
+  "answer": "C",
+  "options": {
+    "A": "Five",
+    "B": "Nine",
+    "C": "Seven",
+    "D": "Three"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863e"
+  },
+  "country": "indonesia",
+  "text": "What does the cone shape of Tumpeng represent?",
+  "answer": "D",
+  "options": {
+    "A": "Community unity",
+    "B": "Harvest abundance",
+    "C": "Royal power",
+    "D": "Devotion to God"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473863f"
+  },
+  "country": "indonesia",
+  "text": "Where did Tempeh originate?",
+  "answer": "A",
+  "options": {
+    "A": "Central Java",
+    "B": "West Sumatra",
+    "C": "Bali",
+    "D": "China"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738640"
+  },
+  "country": "indonesia",
+  "text": "What fungus is used to make Tempeh?",
+  "answer": "B",
+  "options": {
+    "A": "Rhizopus stolonifer",
+    "B": "Rhizopus oligosporus",
+    "C": "Aspergillus oryzae",
+    "D": "Penicillium roqueforti"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738641"
+  },
+  "country": "indonesia",
+  "text": "When was Tempeh first recorded by the Dutch?",
+  "answer": "C",
+  "options": {
+    "A": "1600",
+    "B": "1824",
+    "C": "1896",
+    "D": "1950"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738642"
+  },
+  "country": "indonesia",
+  "text": "Which airport closes for 24 hours during Nyepi?",
+  "answer": "D",
+  "options": {
+    "A": "Jakarta International",
+    "B": "Sukarno-Hatta",
+    "C": "Juanda International",
+    "D": "Ngurah Rai International"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738643"
+  },
+  "country": "indonesia",
+  "text": "Where can Komodo Dragons be found in the wild?",
+  "answer": "A",
+  "options": {
+    "A": "Komodo National Park",
+    "B": "Borobudur Temple",
+    "C": "Mount Bromo",
+    "D": "Bali beaches"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738644"
+  },
+  "country": "indonesia",
+  "text": "How long can Komodo Dragons grow?",
+  "answer": "B",
+  "options": {
+    "A": "2 meters",
+    "B": "Up to 3 meters",
+    "C": "5 meters",
+    "D": "1 meter"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738645"
+  },
+  "country": "indonesia",
+  "text": "What is Rafflesia Arnoldii known for?",
+  "answer": "C",
+  "options": {
+    "A": "Smallest flower",
+    "B": "Sweetest smell",
+    "C": "World's largest bloom",
+    "D": "Brightest color"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738646"
+  },
+  "country": "indonesia",
+  "text": "How wide can Rafflesia Arnoldii grow?",
+  "answer": "D",
+  "options": {
+    "A": "50 centimeters",
+    "B": "2 meters",
+    "C": "75 centimeters",
+    "D": "Up to 1 meter"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738647"
+  },
+  "country": "indonesia",
+  "text": "Why is Rafflesia Arnoldii called the corpse flower?",
+  "answer": "A",
+  "options": {
+    "A": "It smells like rotting meat",
+    "B": "It grows on dead trees",
+    "C": "It blooms at night",
+    "D": "It has black petals"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738648"
+  },
+  "country": "indonesia",
+  "text": "What was Rendang's original purpose?",
+  "answer": "B",
+  "options": {
+    "A": "Royal ceremonies",
+    "B": "Preserving meat for long journeys",
+    "C": "Religious offerings",
+    "D": "Wedding celebrations"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc544738649"
+  },
+  "country": "indonesia",
+  "text": "What defeated the tyrant Mayadenawa during Galungan?",
+  "answer": "C",
+  "options": {
+    "A": "Buddha",
+    "B": "Barong dancers",
+    "C": "The god Indra",
+    "D": "Wali Songo"
+  }
+},
+{
+  "_id": {
+    "$oid": "694803aec2ba4cc54473864a"
+  },
+  "country": "indonesia",
+  "text": "What are Catur Brata?",
+  "answer": "D",
+  "options": {
+    "A": "Sacred temples",
+    "B": "Traditional dances",
+    "C": "Demonic statues",
+    "D": "Four prohibitions during Nyepi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473864b"
+  },
+  "country": "malaysia",
+  "text": "When is Hari Raya Aidilfitri celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "1st day of Syawal",
+    "B": "1st day of Ramadan",
+    "C": "Full moon of Syawal",
+    "D": "Last day of Ramadan"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473864c"
+  },
+  "country": "malaysia",
+  "text": "What is the forgiveness ritual during Hari Raya called?",
+  "answer": "B",
+  "options": {
+    "A": "Duit Raya",
+    "B": "Maaf Zahir dan Batin",
+    "C": "Open House",
+    "D": "Ketupat"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473864d"
+  },
+  "country": "malaysia",
+  "text": "What are the green money packets given during Hari Raya called?",
+  "answer": "C",
+  "options": {
+    "A": "Ang Pao",
+    "B": "Ketupat",
+    "C": "Duit Raya",
+    "D": "Kuih Raya"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473864e"
+  },
+  "country": "malaysia",
+  "text": "What was the beast Nian afraid of?",
+  "answer": "D",
+  "options": {
+    "A": "Water and light",
+    "B": "Fire and drums",
+    "C": "Smoke and bells",
+    "D": "Red color and loud noises"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473864f"
+  },
+  "country": "malaysia",
+  "text": "What is the raw fish salad tossed during Chinese New Year called?",
+  "answer": "A",
+  "options": {
+    "A": "Yee Sang",
+    "B": "Lo Hei",
+    "C": "Ang Pao",
+    "D": "Chap Goh Mei"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738650"
+  },
+  "country": "malaysia",
+  "text": "What are the red money packets during Chinese New Year called?",
+  "answer": "B",
+  "options": {
+    "A": "Duit Raya",
+    "B": "Ang Pao",
+    "C": "Yee Sang",
+    "D": "Kuih Raya"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738651"
+  },
+  "country": "malaysia",
+  "text": "What do single women throw into the sea during Chap Goh Mei?",
+  "answer": "C",
+  "options": {
+    "A": "Flowers",
+    "B": "Coins",
+    "C": "Oranges",
+    "D": "Rice"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738652"
+  },
+  "country": "malaysia",
+  "text": "What did Goddess Parvati give Lord Murugan?",
+  "answer": "D",
+  "options": {
+    "A": "A golden crown",
+    "B": "A sacred book",
+    "C": "A magic sword",
+    "D": "A divine spear"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738653"
+  },
+  "country": "malaysia",
+  "text": "What are the heavy steel frameworks carried during Thaipusam called?",
+  "answer": "A",
+  "options": {
+    "A": "Kavadis",
+    "B": "Paal Kudam",
+    "C": "Vel",
+    "D": "Kolam"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738654"
+  },
+  "country": "malaysia",
+  "text": "How many steps lead to Batu Caves temple?",
+  "answer": "B",
+  "options": {
+    "A": "108 steps",
+    "B": "272 steps",
+    "C": "365 steps",
+    "D": "150 steps"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738655"
+  },
+  "country": "malaysia",
+  "text": "What do devotees offer to Lord Murugan at Batu Caves?",
+  "answer": "C",
+  "options": {
+    "A": "Flowers",
+    "B": "Spears",
+    "C": "Milk pots",
+    "D": "Money"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738656"
+  },
+  "country": "malaysia",
+  "text": "When is Hari Kaamatan celebrated?",
+  "answer": "D",
+  "options": {
+    "A": "June 1-2",
+    "B": "April 30-May 1",
+    "C": "July 1-2",
+    "D": "May 30-31"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738657"
+  },
+  "country": "malaysia",
+  "text": "Who was Huminodun?",
+  "answer": "A",
+  "options": {
+    "A": "A divine maiden who became rice",
+    "B": "A harvest goddess",
+    "C": "A village priestess",
+    "D": "A warrior princess"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738658"
+  },
+  "country": "malaysia",
+  "text": "What are the high priestesses in Kaamatan called?",
+  "answer": "B",
+  "options": {
+    "A": "Tuai Rumah",
+    "B": "Bobohizan",
+    "C": "Unduk Ngadau",
+    "D": "Magavau"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738659"
+  },
+  "country": "malaysia",
+  "text": "What is the rice wine drunk during Kaamatan called?",
+  "answer": "C",
+  "options": {
+    "A": "Tuak",
+    "B": "Ai Pengayu",
+    "C": "Tapai or Lihing",
+    "D": "Aramaiti"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865a"
+  },
+  "country": "malaysia",
+  "text": "What is the beauty pageant during Kaamatan called?",
+  "answer": "D",
+  "options": {
+    "A": "Miss Sabah",
+    "B": "Magavau",
+    "C": "Bobohizan",
+    "D": "Unduk Ngadau"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865b"
+  },
+  "country": "malaysia",
+  "text": "When was Gawai Dayak officially recognized?",
+  "answer": "A",
+  "options": {
+    "A": "1965",
+    "B": "1970",
+    "C": "1957",
+    "D": "1980"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865c"
+  },
+  "country": "malaysia",
+  "text": "What are the traditional longhouses in Gawai called?",
+  "answer": "B",
+  "options": {
+    "A": "Ranyai",
+    "B": "Rumah Panjai",
+    "C": "Tuai Rumah",
+    "D": "Muai Antu"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865d"
+  },
+  "country": "malaysia",
+  "text": "What is the village chief in Gawai celebrations called?",
+  "answer": "C",
+  "options": {
+    "A": "Bobohizan",
+    "B": "Ngajat",
+    "C": "Tuai Rumah",
+    "D": "Unduk Ngadau"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865e"
+  },
+  "country": "malaysia",
+  "text": "What is the greeting during Gawai toast?",
+  "answer": "D",
+  "options": {
+    "A": "Maaf Zahir dan Batin",
+    "B": "Ai Pengayu",
+    "C": "Nyibur Temuai",
+    "D": "Gayu Guru Gerai Nyamai"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473865f"
+  },
+  "country": "malaysia",
+  "text": "What is the warrior dance performed during Gawai called?",
+  "answer": "A",
+  "options": {
+    "A": "Ngajat",
+    "B": "Miring",
+    "C": "Rampapanau",
+    "D": "Magavau"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738660"
+  },
+  "country": "malaysia",
+  "text": "What does Deepavali mean?",
+  "answer": "B",
+  "options": {
+    "A": "Festival of Colors",
+    "B": "Festival of Lights",
+    "C": "Festival of Joy",
+    "D": "Festival of Harvest"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738661"
+  },
+  "country": "malaysia",
+  "text": "What is the ritual oil bath during Deepavali called?",
+  "answer": "C",
+  "options": {
+    "A": "Kolam",
+    "B": "Diya",
+    "C": "Ganga Snanam",
+    "D": "Amavasya"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738662"
+  },
+  "country": "malaysia",
+  "text": "What are the intricate floor designs during Deepavali called?",
+  "answer": "D",
+  "options": {
+    "A": "Diya",
+    "B": "Murukku",
+    "C": "Laddu",
+    "D": "Kolam"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738663"
+  },
+  "country": "malaysia",
+  "text": "What are the clay oil lamps during Deepavali called?",
+  "answer": "A",
+  "options": {
+    "A": "Diyas",
+    "B": "Kolam",
+    "C": "Laddu",
+    "D": "Murukku"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738664"
+  },
+  "country": "malaysia",
+  "text": "What does Nasi Lemak mean?",
+  "answer": "B",
+  "options": {
+    "A": "Coconut rice",
+    "B": "Rich rice",
+    "C": "Morning rice",
+    "D": "Fragrant rice"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738665"
+  },
+  "country": "malaysia",
+  "text": "What leaves are used to cook Nasi Lemak?",
+  "answer": "C",
+  "options": {
+    "A": "Banana leaves",
+    "B": "Curry leaves",
+    "C": "Pandan leaves",
+    "D": "Lemongrass"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738666"
+  },
+  "country": "malaysia",
+  "text": "What are the fried anchovies in Nasi Lemak called?",
+  "answer": "D",
+  "options": {
+    "A": "Sambal",
+    "B": "Ketupat",
+    "C": "Kuih",
+    "D": "Ikan bilis"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738667"
+  },
+  "country": "malaysia",
+  "text": "How many main varieties of Laksa are there?",
+  "answer": "A",
+  "options": {
+    "A": "Two",
+    "B": "Three",
+    "C": "Four",
+    "D": "Five"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738668"
+  },
+  "country": "malaysia",
+  "text": "Which Laksa variety features tamarind and mackerel?",
+  "answer": "B",
+  "options": {
+    "A": "Curry Laksa",
+    "B": "Assam Laksa",
+    "C": "Sarawak Laksa",
+    "D": "Johor Laksa"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738669"
+  },
+  "country": "malaysia",
+  "text": "What culture is Laksa rooted in?",
+  "answer": "C",
+  "options": {
+    "A": "Malay",
+    "B": "Indian",
+    "C": "Peranakan",
+    "D": "Portuguese"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866a"
+  },
+  "country": "malaysia",
+  "text": "What is the peanut sauce served with Satay called?",
+  "answer": "D",
+  "options": {
+    "A": "Sambal",
+    "B": "Nasi impit",
+    "C": "Bumbu",
+    "D": "Kuah kacang"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866b"
+  },
+  "country": "malaysia",
+  "text": "What are the compressed rice cubes with Satay called?",
+  "answer": "A",
+  "options": {
+    "A": "Nasi impit",
+    "B": "Ketupat",
+    "C": "Nasi lemak",
+    "D": "Kuih"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866c"
+  },
+  "country": "malaysia",
+  "text": "How many types of Satay does Indonesia have?",
+  "answer": "B",
+  "options": {
+    "A": "100 types",
+    "B": "252 types",
+    "C": "500 types",
+    "D": "150 types"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866d"
+  },
+  "country": "malaysia",
+  "text": "What does tossing Yee Sang higher symbolize?",
+  "answer": "C",
+  "options": {
+    "A": "More wealth",
+    "B": "Better health",
+    "C": "Higher status and luck",
+    "D": "Longer life"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866e"
+  },
+  "country": "malaysia",
+  "text": "What did Miss Universe Malaysia 2017 wear?",
+  "answer": "D",
+  "options": {
+    "A": "Laksa dress",
+    "B": "Satay costume",
+    "C": "Rendang outfit",
+    "D": "Nasi Lemak dress"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc54473866f"
+  },
+  "country": "malaysia",
+  "text": "Where is the Sarawak Chamber located?",
+  "answer": "A",
+  "options": {
+    "A": "Gunung Mulu National Park",
+    "B": "Batu Caves",
+    "C": "Taman Negara",
+    "D": "Kinabalu Park"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738670"
+  },
+  "country": "malaysia",
+  "text": "How many Boeing 747s could fit in Sarawak Chamber?",
+  "answer": "B",
+  "options": {
+    "A": "20 aircrafts",
+    "B": "40 aircrafts",
+    "C": "60 aircrafts",
+    "D": "100 aircrafts"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738671"
+  },
+  "country": "malaysia",
+  "text": "How old is Taman Negara rainforest?",
+  "answer": "C",
+  "options": {
+    "A": "50 million years",
+    "B": "100 million years",
+    "C": "130 million years",
+    "D": "200 million years"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d0ec2ba4cc544738672"
+  },
+  "country": "malaysia",
+  "text": "What does Lord Rama's return celebrate during Deepavali?",
+  "answer": "D",
+  "options": {
+    "A": "10 years of exile",
+    "B": "7 years of exile",
+    "C": "20 years of exile",
+    "D": "14 years of exile"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738673"
+  },
+  "country": "korea",
+  "text": "When is Seollal celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "1st day of the 1st lunar month",
+    "B": "15th day of the 1st lunar month",
+    "C": "1st day of the 8th lunar month",
+    "D": "5th day of the 5th lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738674"
+  },
+  "country": "korea",
+  "text": "What is the formal bow performed during Seollal called?",
+  "answer": "B",
+  "options": {
+    "A": "Charye",
+    "B": "Sebae",
+    "C": "Seongmyo",
+    "D": "Beolcho"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738675"
+  },
+  "country": "korea",
+  "text": "What is the New Year's money given during Seollal called?",
+  "answer": "C",
+  "options": {
+    "A": "Ang Pao",
+    "B": "Duit Raya",
+    "C": "Sebaetdon",
+    "D": "Otoshidama"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738676"
+  },
+  "country": "korea",
+  "text": "What soup is eaten during Seollal to gain a year in age?",
+  "answer": "D",
+  "options": {
+    "A": "Kimchi soup",
+    "B": "Bibimbap",
+    "C": "Samgyetang",
+    "D": "Tteokguk"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738677"
+  },
+  "country": "korea",
+  "text": "What traditional game uses wooden sticks during Seollal?",
+  "answer": "A",
+  "options": {
+    "A": "Yut Nori",
+    "B": "Ssireum",
+    "C": "Bureom",
+    "D": "Jwibulnori"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738678"
+  },
+  "country": "korea",
+  "text": "When is Chuseok celebrated?",
+  "answer": "B",
+  "options": {
+    "A": "1st day of the 1st lunar month",
+    "B": "15th day of the 8th lunar month",
+    "C": "5th day of the 5th lunar month",
+    "D": "8th day of the 4th lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738679"
+  },
+  "country": "korea",
+  "text": "Which kingdom did Chuseok originate from?",
+  "answer": "C",
+  "options": {
+    "A": "Joseon Kingdom",
+    "B": "Goguryeo Kingdom",
+    "C": "Silla Kingdom",
+    "D": "Goryeo Kingdom"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867a"
+  },
+  "country": "korea",
+  "text": "What is the duty of clearing weeds at gravesites called?",
+  "answer": "D",
+  "options": {
+    "A": "Charye",
+    "B": "Seongmyo",
+    "C": "Sebae",
+    "D": "Beolcho"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867b"
+  },
+  "country": "korea",
+  "text": "What are the half-moon rice cakes during Chuseok called?",
+  "answer": "A",
+  "options": {
+    "A": "Songpyeon",
+    "B": "Tteokguk",
+    "C": "Surichwi",
+    "D": "Garaetteok"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867c"
+  },
+  "country": "korea",
+  "text": "What is the circle dance performed under the full moon called?",
+  "answer": "B",
+  "options": {
+    "A": "Yeondeunghoe",
+    "B": "Ganggangsullae",
+    "C": "Jwibulnori",
+    "D": "Daljip Taeugi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867d"
+  },
+  "country": "korea",
+  "text": "When is Dano celebrated?",
+  "answer": "C",
+  "options": {
+    "A": "1st day of the 1st lunar month",
+    "B": "15th day of the 8th lunar month",
+    "C": "5th day of the 5th lunar month",
+    "D": "8th day of the 4th lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867e"
+  },
+  "country": "korea",
+  "text": "What plant is used to wash hair during Dano?",
+  "answer": "D",
+  "options": {
+    "A": "Pine needles",
+    "B": "Lotus",
+    "C": "Bamboo",
+    "D": "Changpo (sweet flag)"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473867f"
+  },
+  "country": "korea",
+  "text": "What is the traditional wrestling during Dano called?",
+  "answer": "A",
+  "options": {
+    "A": "Ssireum",
+    "B": "Yut Nori",
+    "C": "Bureom",
+    "D": "Sebae"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738680"
+  },
+  "country": "korea",
+  "text": "What are the wheel-patterned rice cakes eaten during Dano called?",
+  "answer": "B",
+  "options": {
+    "A": "Songpyeon",
+    "B": "Surichwi",
+    "C": "Tteokguk",
+    "D": "Garaetteok"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738681"
+  },
+  "country": "korea",
+  "text": "What does Daeboreum mean?",
+  "answer": "C",
+  "options": {
+    "A": "New Year Festival",
+    "B": "Harvest Festival",
+    "C": "Great Full Moon Festival",
+    "D": "Spring Festival"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738682"
+  },
+  "country": "korea",
+  "text": "When is Daeboreum celebrated?",
+  "answer": "D",
+  "options": {
+    "A": "1st day of the 1st lunar month",
+    "B": "5th day of the 5th lunar month",
+    "C": "8th day of the 4th lunar month",
+    "D": "15th day of the 1st lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738683"
+  },
+  "country": "korea",
+  "text": "What is the practice of cracking nuts with teeth called?",
+  "answer": "A",
+  "options": {
+    "A": "Bureom",
+    "B": "Ssireum",
+    "C": "Sebae",
+    "D": "Beolcho"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738684"
+  },
+  "country": "korea",
+  "text": "What is the bonfire of straw houses during Daeboreum called?",
+  "answer": "B",
+  "options": {
+    "A": "Jwibulnori",
+    "B": "Daljip Taeugi",
+    "C": "Yeondeunghoe",
+    "D": "Ganggangsullae"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738685"
+  },
+  "country": "korea",
+  "text": "What is the spinning burning charcoal practice called?",
+  "answer": "C",
+  "options": {
+    "A": "Daljip Taeugi",
+    "B": "Bureom",
+    "C": "Jwibulnori",
+    "D": "Ssireum"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738686"
+  },
+  "country": "korea",
+  "text": "When was Buddhism introduced to Korea?",
+  "answer": "D",
+  "options": {
+    "A": "1st century",
+    "B": "8th century",
+    "C": "10th century",
+    "D": "4th century"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738687"
+  },
+  "country": "korea",
+  "text": "When is Buddha's Birthday celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "8th day of the 4th lunar month",
+    "B": "5th day of the 5th lunar month",
+    "C": "15th day of the 8th lunar month",
+    "D": "1st day of the 1st lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738688"
+  },
+  "country": "korea",
+  "text": "What is the Lotus Lantern Festival called?",
+  "answer": "B",
+  "options": {
+    "A": "Jwibulnori",
+    "B": "Yeondeunghoe",
+    "C": "Ganggangsullae",
+    "D": "Daljip Taeugi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738689"
+  },
+  "country": "korea",
+  "text": "What philosophy states food and medicine have the same root?",
+  "answer": "C",
+  "options": {
+    "A": "Obangsaek",
+    "B": "Hansik",
+    "C": "Yak-sik Dong-won",
+    "D": "Kimjang"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868a"
+  },
+  "country": "korea",
+  "text": "How many colors are in the Obangsaek philosophy?",
+  "answer": "D",
+  "options": {
+    "A": "Three",
+    "B": "Four",
+    "C": "Six",
+    "D": "Five"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868b"
+  },
+  "country": "korea",
+  "text": "What are the red chili flakes in Kimchi called?",
+  "answer": "A",
+  "options": {
+    "A": "Gochugaru",
+    "B": "Gochujang",
+    "C": "Namul",
+    "D": "Garaetteok"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868c"
+  },
+  "country": "korea",
+  "text": "How long has Kimchi been consumed according to historical records?",
+  "answer": "B",
+  "options": {
+    "A": "1,000 years",
+    "B": "At least 2,000 years",
+    "C": "500 years",
+    "D": "3,000 years"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868d"
+  },
+  "country": "korea",
+  "text": "What is the communal practice of preparing Kimchi called?",
+  "answer": "C",
+  "options": {
+    "A": "Sebae",
+    "B": "Charye",
+    "C": "Kimjang",
+    "D": "Beolcho"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868e"
+  },
+  "country": "korea",
+  "text": "What is the chili paste used in Bibimbap called?",
+  "answer": "D",
+  "options": {
+    "A": "Gochugaru",
+    "B": "Kimchi",
+    "C": "Namul",
+    "D": "Gochujang"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473868f"
+  },
+  "country": "korea",
+  "text": "What are the seasoned vegetables in Bibimbap called?",
+  "answer": "A",
+  "options": {
+    "A": "Namul",
+    "B": "Gochujang",
+    "C": "Kimchi",
+    "D": "Garaetteok"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738690"
+  },
+  "country": "korea",
+  "text": "Which Joseon Period dish did Bibimbap derive from?",
+  "answer": "B",
+  "options": {
+    "A": "Tteokguk",
+    "B": "Goldongban",
+    "C": "Kimjang",
+    "D": "Surichwi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738691"
+  },
+  "country": "korea",
+  "text": "What are the white rice cakes in Tteokguk called?",
+  "answer": "C",
+  "options": {
+    "A": "Songpyeon",
+    "B": "Surichwi",
+    "C": "Garaetteok",
+    "D": "Namul"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738692"
+  },
+  "country": "korea",
+  "text": "What does the white color of Tteokguk symbolize?",
+  "answer": "D",
+  "options": {
+    "A": "Wealth",
+    "B": "Longevity",
+    "C": "Health",
+    "D": "Fresh start and purity"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738693"
+  },
+  "country": "korea",
+  "text": "What do the sliced coin-like shapes in Tteokguk represent?",
+  "answer": "A",
+  "options": {
+    "A": "Joseon-era currency and prosperity",
+    "B": "Family unity",
+    "C": "Full moon",
+    "D": "Buddhist symbols"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738694"
+  },
+  "country": "korea",
+  "text": "What is the wine drunk on Daeboreum called?",
+  "answer": "B",
+  "options": {
+    "A": "Soju",
+    "B": "Gwibalki-sul",
+    "C": "Makgeolli",
+    "D": "Cheongju"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738695"
+  },
+  "country": "korea",
+  "text": "What does Gwibalki-sul mean?",
+  "answer": "C",
+  "options": {
+    "A": "Good Fortune Wine",
+    "B": "Full Moon Wine",
+    "C": "Ear-Sharpening Wine",
+    "D": "New Year Wine"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738696"
+  },
+  "country": "korea",
+  "text": "What percentage of Koreans share the surname Kim?",
+  "answer": "D",
+  "options": {
+    "A": "10%",
+    "B": "15%",
+    "C": "25%",
+    "D": "About 20%"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738697"
+  },
+  "country": "korea",
+  "text": "What are the three most common Korean surnames?",
+  "answer": "A",
+  "options": {
+    "A": "Kim, Lee, and Park",
+    "B": "Kim, Choi, and Lee",
+    "C": "Park, Choi, and Kim",
+    "D": "Lee, Park, and Choi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738698"
+  },
+  "country": "korea",
+  "text": "What percentage of Korean women has had cosmetic procedures?",
+  "answer": "B",
+  "options": {
+    "A": "One in ten",
+    "B": "One in five",
+    "C": "One in three",
+    "D": "One in twenty"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc544738699"
+  },
+  "country": "korea",
+  "text": "What does the government monitor during Kimchi Crisis years?",
+  "answer": "C",
+  "options": {
+    "A": "Rice and soy prices",
+    "B": "Chili and garlic prices",
+    "C": "Napa cabbage and radish prices",
+    "D": "Salt and anchovy prices"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480d80c2ba4cc54473869a"
+  },
+  "country": "korea",
+  "text": "What has been used to transport cabbage during Kimchi Crisis?",
+  "answer": "D",
+  "options": {
+    "A": "Navy ships",
+    "B": "High-speed trains",
+    "C": "Emergency trucks",
+    "D": "Military transport planes"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc54473869b"
+  },
+  "country": "thailand",
+  "text": "When is Songkran celebrated?",
+  "answer": "B",
+  "options": {
+    "A": "January 1-3",
+    "B": "April 13-15",
+    "C": "December 25-27",
+    "D": "July 1-3"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc54473869c"
+  },
+  "country": "thailand",
+  "text": "What does Sankranti mean?",
+  "answer": "C",
+  "options": {
+    "A": "Water festival",
+    "B": "New beginning",
+    "C": "To step into or pass into",
+    "D": "Solar calendar"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc54473869d"
+  },
+  "country": "thailand",
+  "text": "What is the traditional water pouring ceremony called?",
+  "answer": "D",
+  "options": {
+    "A": "Loy Krathong",
+    "B": "Rod Nam",
+    "C": "Phi Ta Khon",
+    "D": "Rod Nam Dum Hua"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc54473869e"
+  },
+  "country": "thailand",
+  "text": "What does white talcum powder symbolize during Songkran?",
+  "answer": "A",
+  "options": {
+    "A": "Protection",
+    "B": "Purity",
+    "C": "Good luck",
+    "D": "Cleansing"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc54473869f"
+  },
+  "country": "thailand",
+  "text": "When is Loy Krathong celebrated?",
+  "answer": "B",
+  "options": {
+    "A": "New moon of the 12th month",
+    "B": "Full moon of the 12th Thai lunar month",
+    "C": "1st day of the lunar year",
+    "D": "Summer solstice"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a0"
+  },
+  "country": "thailand",
+  "text": "Which kingdom is believed to have started Loy Krathong?",
+  "answer": "C",
+  "options": {
+    "A": "Ayutthaya Kingdom",
+    "B": "Rattanakosin Kingdom",
+    "C": "Sukhothai Kingdom",
+    "D": "Lanna Kingdom"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a1"
+  },
+  "country": "thailand",
+  "text": "What are the lotus-shaped floating baskets called?",
+  "answer": "D",
+  "options": {
+    "A": "Phi Ta Khon",
+    "B": "Mah Song",
+    "C": "Som Tum",
+    "D": "Krathongs"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a2"
+  },
+  "country": "thailand",
+  "text": "Who is the Goddess of Water honored during Loy Krathong?",
+  "answer": "A",
+  "options": {
+    "A": "Phra Mae Khongkha",
+    "B": "Nine Emperor Gods",
+    "C": "Phaya Thaen",
+    "D": "Prince Vessantara"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a3"
+  },
+  "country": "thailand",
+  "text": "What legend does Phi Ta Khon reenact?",
+  "answer": "B",
+  "options": {
+    "A": "Rain god awakening",
+    "B": "Prince Vessantara's return",
+    "C": "Nine Emperor Gods healing",
+    "D": "Buddha's enlightenment"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a4"
+  },
+  "country": "thailand",
+  "text": "What are the masks in Phi Ta Khon made from?",
+  "answer": "C",
+  "options": {
+    "A": "Wood and cloth",
+    "B": "Bamboo and paper",
+    "C": "Coconut husks and rice steamers",
+    "D": "Clay and leaves"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a5"
+  },
+  "country": "thailand",
+  "text": "What do participants wave during Phi Ta Khon?",
+  "answer": "D",
+  "options": {
+    "A": "Flags",
+    "B": "Flowers",
+    "C": "Swords",
+    "D": "Wooden phalluses"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a6"
+  },
+  "country": "thailand",
+  "text": "When is Bun Bang Fai usually celebrated?",
+  "answer": "A",
+  "options": {
+    "A": "2nd weekend of May",
+    "B": "April 13-15",
+    "C": "June or July",
+    "D": "Full moon of 12th month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a7"
+  },
+  "country": "thailand",
+  "text": "Who is the Rain God invoked during Bun Bang Fai?",
+  "answer": "B",
+  "options": {
+    "A": "Phra Mae Khongkha",
+    "B": "Phaya Thaen",
+    "C": "Prince Vessantara",
+    "D": "Nine Emperor Gods"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a8"
+  },
+  "country": "thailand",
+  "text": "What happens to teams whose rockets fail during Bun Bang Fai?",
+  "answer": "C",
+  "options": {
+    "A": "They pay a fine",
+    "B": "They must rebuild",
+    "C": "They are thrown into muddy puddles",
+    "D": "They are disqualified"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386a9"
+  },
+  "country": "thailand",
+  "text": "When is the Vegetarian Festival celebrated?",
+  "answer": "D",
+  "options": {
+    "A": "1st-9th of January",
+    "B": "Full moon of 12th month",
+    "C": "April 13-15",
+    "D": "1st-9th day of 9th Chinese lunar month"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386aa"
+  },
+  "country": "thailand",
+  "text": "Where did the Vegetarian Festival originate?",
+  "answer": "A",
+  "options": {
+    "A": "Phuket",
+    "B": "Bangkok",
+    "C": "Chiang Mai",
+    "D": "Lopburi"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386ab"
+  },
+  "country": "thailand",
+  "text": "What are the spirit mediums in the Vegetarian Festival called?",
+  "answer": "B",
+  "options": {
+    "A": "Phi Ta Khon",
+    "B": "Mah Song",
+    "C": "Krathongs",
+    "D": "Phaya Thaen"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386ac"
+  },
+  "country": "thailand",
+  "text": "How many days is the vegan diet during the Vegetarian Festival?",
+  "answer": "C",
+  "options": {
+    "A": "7 days",
+    "B": "9 days",
+    "C": "10 days",
+    "D": "14 days"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386ad"
+  },
+  "country": "thailand",
+  "text": "How many flavor notes must a Thai dish hit?",
+  "answer": "D",
+  "options": {
+    "A": "Two",
+    "B": "Three",
+    "C": "Five",
+    "D": "Four"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386ae"
+  },
+  "country": "thailand",
+  "text": "Who created Pad Thai in the late 1930s?",
+  "answer": "A",
+  "options": {
+    "A": "Prime Minister Plaek Phibunsongkhram",
+    "B": "King Rama IV",
+    "C": "Prince Vessantara",
+    "D": "Phra Mae Khongkha"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386af"
+  },
+  "country": "thailand",
+  "text": "Why was Pad Thai created?",
+  "answer": "B",
+  "options": {
+    "A": "To celebrate independence",
+    "B": "To forge national identity and address rice shortages",
+    "C": "To honor the king",
+    "D": "To compete with foreign dishes"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b0"
+  },
+  "country": "thailand",
+  "text": "What campaign promoted Pad Thai?",
+  "answer": "C",
+  "options": {
+    "A": "Rice is life",
+    "B": "Eat Thai",
+    "C": "Noodle is your lunch",
+    "D": "Support local food"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b1"
+  },
+  "country": "thailand",
+  "text": "What does Tom mean in Tom Yum Goong?",
+  "answer": "D",
+  "options": {
+    "A": "Spicy",
+    "B": "Sour",
+    "C": "Soup",
+    "D": "Boiling"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b2"
+  },
+  "country": "thailand",
+  "text": "What does Yam mean in Tom Yum Goong?",
+  "answer": "A",
+  "options": {
+    "A": "Spicy and sour",
+    "B": "Hot and sweet",
+    "C": "Boiling water",
+    "D": "River prawn"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b3"
+  },
+  "country": "thailand",
+  "text": "What is the 1997 Asian financial crisis nicknamed?",
+  "answer": "B",
+  "options": {
+    "A": "Pad Thai crisis",
+    "B": "Tom Yum Goong crisis",
+    "C": "Som Tum crisis",
+    "D": "Bangkok crisis"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b4"
+  },
+  "country": "thailand",
+  "text": "What does Som Tum translate to?",
+  "answer": "C",
+  "options": {
+    "A": "Green salad",
+    "B": "Spicy papaya",
+    "C": "Pounded sourness",
+    "D": "Raw vegetables"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b5"
+  },
+  "country": "thailand",
+  "text": "Where did Som Tum likely originate?",
+  "answer": "D",
+  "options": {
+    "A": "Bangkok",
+    "B": "Phuket",
+    "C": "Chiang Mai",
+    "D": "Northeast Thailand's Isan region"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b6"
+  },
+  "country": "thailand",
+  "text": "What tool is used to make Som Tum?",
+  "answer": "A",
+  "options": {
+    "A": "Mortar and pestle",
+    "B": "Wok and spatula",
+    "C": "Knife and board",
+    "D": "Food processor"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b7"
+  },
+  "country": "thailand",
+  "text": "Where is the Monkey Buffet Festival held?",
+  "answer": "B",
+  "options": {
+    "A": "Bangkok",
+    "B": "Lopburi",
+    "C": "Phuket",
+    "D": "Chiang Mai"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b8"
+  },
+  "country": "thailand",
+  "text": "What animals is the Monkey Buffet Festival for?",
+  "answer": "C",
+  "options": {
+    "A": "Elephants",
+    "B": "Tigers",
+    "C": "Long-tailed macaques",
+    "D": "Water buffaloes"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386b9"
+  },
+  "country": "thailand",
+  "text": "What is Bangkok's official Thai name status?",
+  "answer": "D",
+  "options": {
+    "A": "Shortest place name",
+    "B": "Most beautiful name",
+    "C": "Oldest city name",
+    "D": "Longest place name in the world"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386ba"
+  },
+  "country": "thailand",
+  "text": "What does Krung Thep mean?",
+  "answer": "A",
+  "options": {
+    "A": "City of Angels",
+    "B": "City of Water",
+    "C": "City of Kings",
+    "D": "City of Gold"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386bb"
+  },
+  "country": "thailand",
+  "text": "Is Thailand the only Southeast Asian country never colonized?",
+  "answer": "B",
+  "options": {
+    "A": "No, Myanmar also",
+    "B": "Yes",
+    "C": "No, Vietnam also",
+    "D": "No, Laos also"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386bc"
+  },
+  "country": "thailand",
+  "text": "What was Thailand's role between Burma and Indochina?",
+  "answer": "C",
+  "options": {
+    "A": "Trading post",
+    "B": "Military base",
+    "C": "Buffer state",
+    "D": "Religious center"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386bd"
+  },
+  "country": "thailand",
+  "text": "Which kings are credited for Thailand's independence?",
+  "answer": "D",
+  "options": {
+    "A": "King Rama I and II",
+    "B": "King Rama II and III",
+    "C": "King Rama III and IV",
+    "D": "King Rama IV and V"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386be"
+  },
+  "country": "thailand",
+  "text": "What are Krathongs crafted from?",
+  "answer": "A",
+  "options": {
+    "A": "Banana trunks and leaves",
+    "B": "Coconut husks",
+    "C": "Rice paper",
+    "D": "Bamboo and cloth"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386bf"
+  },
+  "country": "thailand",
+  "text": "What do people place in Krathongs to float away bad luck?",
+  "answer": "B",
+  "options": {
+    "A": "A coin only",
+    "B": "Hair or fingernail clipping",
+    "C": "A flower",
+    "D": "A written wish"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386c0"
+  },
+  "country": "thailand",
+  "text": "What is the chili jam in Tom Yum Goong called?",
+  "answer": "C",
+  "options": {
+    "A": "Som tum",
+    "B": "Pad thai",
+    "C": "Nam prik pao",
+    "D": "Gochujang"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386c1"
+  },
+  "country": "thailand",
+  "text": "Where do the abundant shrimp for Tom Yum Goong come from?",
+  "answer": "D",
+  "options": {
+    "A": "Mekong River",
+    "B": "Andaman Sea",
+    "C": "Gulf of Thailand",
+    "D": "Chao Phraya River"
+  }
+},
+{
+  "_id": {
+    "$oid": "69480df2c2ba4cc5447386c2"
+  },
+  "country": "thailand",
+  "text": "What did turning rice into noodles do during WWII?",
+  "answer": "A",
+  "options": {
+    "A": "Doubled food stores",
+    "B": "Halved cooking time",
+    "C": "Reduced waste",
+    "D": "Improved nutrition"
+  }
+}]
