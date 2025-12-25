@@ -40,6 +40,9 @@ app.use(
 );
 
 // Session configuration with MongoDB store for serverless
+// Extended session: 30 days for "remember me" functionality
+const SESSION_TTL = 30 * 24 * 60 * 60; // 30 days in seconds
+
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -47,7 +50,7 @@ app.use(
     saveUninitialized: false,
     store: MongoStore.create({
       mongoUrl: process.env.MONGODB_URI,
-      ttl: 24 * 60 * 60, // 24 hours
+      ttl: SESSION_TTL,
       autoRemove: 'native',
     }),
     cookie: {
@@ -55,7 +58,7 @@ app.use(
       httpOnly: true,
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
       domain: process.env.NODE_ENV === 'production' ? '.smoltako.space' : undefined,
-      maxAge: 24 * 60 * 60 * 1000, // 24 hours
+      maxAge: SESSION_TTL * 1000, // 30 days in milliseconds
     },
   })
 );
