@@ -67,10 +67,21 @@ router.get('/logout', (req, res) => {
         message: 'Error logging out',
       });
     }
-    req.session.destroy();
-    res.json({
-      success: true,
-      message: 'Logged out successfully',
+    req.session.destroy((destroyErr) => {
+      if (destroyErr) {
+        console.error('Session destroy error:', destroyErr);
+      }
+      // Clear cookie with same settings as session config
+      res.clearCookie('connect.sid', {
+        path: '/',
+        domain: process.env.NODE_ENV === 'production' ? '.smoltako.space' : undefined,
+        secure: process.env.NODE_ENV === 'production',
+        sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+      });
+      res.json({
+        success: true,
+        message: 'Logged out successfully',
+      });
     });
   });
 });
