@@ -1,0 +1,577 @@
+[{
+  "_id": {
+    "$oid": "69491aa05a4e2edce1dfd1a1"
+  },
+  "country": "japan",
+  "type": "festival",
+  "date_updated": "2025-12-22T18:13:00Z",
+  "contents": [
+    {
+      "title": "Shogatsu (New Year)",
+      "date": "Jan 1",
+      "content": "History: Shōgatsu (Japanese New Year) originated from 6th and 7th-century Chinese traditions and the imperial chōga ritual, where subjects gathered to pledge loyalty to the emperor. Over time, this courtly ceremony spread to the provinces and eventually the general populace, evolving into a family-centric tradition defined by thorough cleaning, formal attire, and communal feasting. Although Japan later shifted from the lunar to the Gregorian calendar, the festival retains its ancient significance as a spiritual period for returning to one’s ancestral home to renew social ties and welcome prosperity.\n\nCelebration: Celebrations begin on New Year's Eve with Joya no Kane, where Buddhist temples ring their bells 108 times to banish the 108 worldly desires, followed immediately by Hatsumode, the first shrine visit of the year where millions pray for good health, happiness and success in the coming year and purchase omamori (charms). At home, families gather to eat Osechi Ryori (elaborately prepared dishes in tiered boxes) and Ozoni (mochi soup), while children eagerly await Otoshidama, special envelopes containing money gifted by parents and relatives.",
+      "picture_url": "hatsumode",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Hanami (Cherry Blossom Festival)",
+      "date": "Late March – Early April",
+      "content": "History: Started in the Nara Period (710–794) originally admiring plum blossoms (influenced by China). By the Heian Period, the focus shifted to sakura (cherry blossoms), and the practice became a leisure activity for the imperial court before spreading to the samurai and commoners.\n\nCelebration: This celebration is less about ceremony and more about communal enjoyment, where friends, families, and coworkers claim spots under blooming sakura trees with blue tarps early in the morning for day-long picnics. The atmosphere is rowdy and cheerful, fueled by sake, beer, and seasonal bento boxes, often extending into the night (Yozakura) when the trees are illuminated with paper lanterns to highlight the ethereal, fleeting beauty of the blossoms.",
+      "picture_url": "hanami",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Gion Matsuri",
+      "date": "July 1–31 (Main parades: July 17 & 24)",
+      "content": "History: Originated in 869 AD during a severe plague. The emperor ordered a purification ritual at Yasaka Shrine to appease the gods and halt the epidemic. It has continued for over 1,000 years.\n\nCelebration: Held in Kyoto, it features massive, hand-built wooden floats (yamaboko) filled with musicians, which are pulled through the streets. The highlight is the Yamaboko Junko, a grand procession where massive floats weighing up to 12 tons—assembled without a single nail—are pulled through Kyoto’s streets by teams of men to the rhythm of Gion-bayashi music. Leading up to the parade, the Yoiyama street parties see locals opening their traditional merchant homes to display heirlooms.",
+      "picture_url": "gion_matsuri",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Obon",
+      "date": "July 7",
+      "content": "History: Based on the Ullambana Sutra (Buddhist scripture) and the legend of Monk Mokuren, who saved his deceased mother from the realm of hungry ghosts. It fused with indigenous Japanese ancestor worship.\n\nCelebration: The festival opens with Mukaebi (welcoming fires) lit at home entrances to guide ancestral spirits back to the earthly realm, after which families clean gravesites and make food offerings. Communities gather in parks or temple grounds to perform the Bon Odori, a hypnotic circle dance around a central scaffold (yagura), and the event concludes with Okuribi (sending-off fires), such as the famous hillside bonfires in Kyoto or floating lanterns (Toro Nagashi) down rivers to guide spirits back to the afterlife.",
+      "picture_url": "toro_nagashi",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Tanabata (Star Festival)",
+      "date": "Aug 13–16 (Some regions celebrate July 13–16)",
+      "content": "History: Derived from the Chinese Qixi Festival and the legend of the Weaver Princess (Orihime) and the Cowherd (Hikoboshi), lovers separated by the Milky Way who can only meet on the 7th day of the 7th month.\n\nCelebration: Celebrations focus on making wishes; people write their personal aspirations on colorful strips of paper called Tanzaku and hang them on bamboo branches along with other paper origami decorations like cranes (for longevity) and nets (for good harvests). In major cities like Sendai, shopping arcades are transformed by massive, floor-length streamers made of washi paper that rustle in the wind, symbolizing the threads of the Weaver Princess.",
+      "picture_url": "tanabata",
+      "date_created": "2025-12-22T18:13:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491aa05a4e2edce1dfd1a2"
+  },
+  "country": "indonesia",
+  "type": "festival",
+  "date_updated": "2025-12-22T18:13:00Z",
+  "contents": [
+    {
+      "title": "Nyepi (Day of Silence)",
+      "date": "1st day of the 10th month (Saka Calendar)",
+      "content": "History: Marks the New Year of the Saka calendar (brought from India). It commemorates the peace established after legendary battles between mythical kings.\n\nCelebration: The celebration is a dramatic contrast of noise and silence; on Pengerupukan (New Year's Eve), villagers parade Ogoh-Ogoh—giant, grotesque demonic statues—through the streets with torches and gamelan music to lure out and confuse evil spirits, often burning the statues afterward. At 6:00 AM the next morning, the entire island of Bali falls dead silent for 24 hours under Catur Brata (four prohibitions): no fire/light, no work, no travel, and no entertainment, forcing a day of absolute self-reflection and meditation.",
+      "picture_url": "ogoh_ogoh_parade",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Galungan",
+      "date": "Every 210 days (Wednesday of Dungulan week)",
+      "content": "History: A Balinese Hindu festival celebrating the victory of dharma (truth) over adharma (evil), specifically the defeat of the tyrant Mayadenawa by the god Indra.\n\nCelebration: The island transforms visually as every household erects a Penjor—a tall, curved bamboo pole decorated with young coconut leaves and offerings—at their gate, symbolizing Mount Agung and gratitude for the earth’s produce. Families put on their finest traditional kebaya and sarongs to visit village temples for prayers, while 'Barong' dancers (mythical lion-like creatures) move from house to house, performing cleansing rituals to ward off negative spirits, with the festivities culminating in a great feast of Lawar.",
+      "picture_url": "galungan",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Yadnya Kasada",
+      "date": "14th day of the Kasada month",
+      "content": "History: Dates back to the 15th-century Majapahit era. Legend says a childless couple (Roro Anteng and Joko Seger) prayed to the mountain gods for children. They were granted 25 children on the condition that the youngest be sacrificed. Today, livestock and crops are used instead of humans.\n\nCelebration: In a display of deep devotion, the Tenggerese people wake before dawn to trek up the steep, sandy slopes of Mount Bromo, carrying offerings that range from crops and flowers to live chickens and goats. Upon reaching the rim of the active, smoking crater, they pray with the village shamans before throwing their offerings into the volcano as a sacrifice to Hyang Widhi Wasa (God); meanwhile, locals from lower villages stand inside the crater walls with nets, attempting to catch the offerings for good luck.",
+      "picture_url": "yadnya_kasada",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Sekaten",
+      "date": "Ends on 12th of Rabi al-Awwal (Islamic Calendar)",
+      "content": "History: Originated in the 15th century by the Wali Songo (nine saints) to spread Islam in Java. They used the Gamelan (traditional orchestra) to attract locals to the mosque to listen to sermons.\n\nCelebration: This week-long festival centers on the Royal Palaces (Kraton) of Yogyakarta and Surakarta, where two sacred Gamelan sets (musical ensembles) are played continuously for seven days, stopping only for prayers. The climax is Grebeg Mulud, where the Sultan sends out Gunungan—mountains of sticky rice, vegetables, and sweets—to the Great Mosque, where commoners fiercely scramble and fight to grab a piece of the food, believing it carries the Sultan's blessing and guarantees a good harvest.",
+      "picture_url": "sekaten",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Waisak (Vesak)",
+      "date": "Full moon of the 4th lunar month",
+      "content": "History: Commemorates three significant events in the life of Siddhartha Gautama (Buddha): his birth, enlightenment, and passing (Parinirvana).\n\nCelebration: Thousands of Buddhist monks and pilgrims gather at the majestic Borobudur Temple, participating in a solemn procession known as Pradaksina, where they circumambulate the temple three times while chanting mantras and sprinkling holy water. The spiritual energy peaks at night under the full moon when devotees meditate in deep silence, followed by the mesmerizing release of thousands of eco-friendly sky lanterns, each carrying a written wish for peace and enlightenment.",
+      "picture_url": "borobudur_temple",
+      "date_created": "2025-12-22T18:13:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491aa05a4e2edce1dfd1a3"
+  },
+  "country": "malaysia",
+  "type": "festival",
+  "date_updated": "2025-12-22T18:13:00Z",
+  "contents": [
+    {
+      "title": "Hari Raya Aidilfitri",
+      "date": "1st day of Syawal (Islamic Calendar)",
+      "content": "History: An Islamic festival established by Prophet Muhammad after his migration to Medina. It marks the victory of spiritual endurance after a month of fasting (Ramadan).\n\nCelebration: The morning begins with prayers at the mosque and visiting the graves of loved ones, followed by the emotional ritual of Maaf Zahir dan Batin, where younger family members kneel before their elders to ask forgiveness for past wrongs. The rest of the month is a joyous social marathon of 'Open Houses,' where families open their doors to friends and neighbors of all races to feast on Rendang, Ketupat, and Kuih Raya, while children collect green packets of money (Duit Raya) and play with sparklers.",
+      "picture_url": "duit_raya",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Chinese New Year",
+      "date": "1st day of the 1st lunar month",
+      "content": "History: Based on the ancient myth of the beast Nian, which was afraid of the color red and loud noises. Villagers used firecrackers and red decorations to scare it away.\n\nCelebration: Uniquely in Malaysia, the celebration highlights the loud and messy tradition of 'Lo Hei' or tossing Yee Sang (a raw fish salad), where families stand around a round table and toss the ingredients high into the air with chopsticks while shouting auspicious phrases—the higher the toss, the better the luck. Days are filled with the deafening crackle of firecrackers, lion dance troupes performing at homes and offices to 'pluck the greens' (symbolizing wealth), and the giving of Ang Pao (red packets), ending with Chap Goh Mei where single women throw oranges into the sea to find a suitor.",
+      "picture_url": "lo_hei",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Thaipusam",
+      "date": "Full moon of the Tamil month Thai",
+      "content": "History: Celebrates the occasion when the Goddess Parvati gave her son, Lord Murugan, a divine spear (Vel) to vanquish the evil demon Soorapadman.\n\nCelebration: This is a visceral display of faith where devotees, often in a trance state, carry Kavadis—heavy, ornate steel frameworks attached to their bodies with sharp hooks and skewers piercing their skin, tongue, and cheeks—as an act of penance or thanksgiving. They walk barefoot for kilometers, accompanied by drumming and chanting supporters, to climb the 272 steps of the Batu Caves temple to offer milk pots (Paal Kudam) to Lord Murugan, showing no signs of pain or bleeding due to weeks of spiritual preparation and fasting.",
+      "picture_url": "thaipusam",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Hari Kaamatan (Harvest Festivals in Sabah)",
+      "date": "May 30-31",
+      "content": "History: Kaamatan is Sabah's ancient harvest festival, rooted in the legend of Huminodun, a divine maiden who sacrificed her body to become the rice and crops that saved her people from famine, making rice sacred.\n\nCelebration: Celebrated by the Kadazan-Dusun people, the festival is a spiritual reverence to Bambarayon (the rice spirit) and begins with the Magavau ritual, performed by the Bobohizan (high priestesses) to heal the rice spirit and guide it safely to the barn. The month-long celebration is fueled by 'Aramaiti' (the spirit of drinking and merrymaking) featuring free-flowing Tapai or Lihing (rice wine) and traditional sports like Rampapanau (bamboo stilt walking) and Migazat Dukug (tug-of-war). However, the undisputed highlight is the state-level Unduk Ngadau, a cultural beauty pageant that honors the legend of Huminodun.",
+      "picture_url": "kaamatan",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Gawai Dayak (Harvest Festivals in Sarawak)",
+      "date": "June 1-2",
+      "content": "History: Gawai is more of a Thanksgiving festival to express gratitude towards the bountiful yields and celebrate unity as well as the planning of future prospects. Hari Gawai was officially recognised and first celebrated formally on June 1, 1965. Before that, the Dayak people would typically begin the festivities after the harvest season in April or May.\n\nCelebration: Held by the Dayak communities (Iban, Bidayuh, and Orang Ulu), the festivities center on the traditional longhouses (Rumah Panjai), beginning on the eve with the Muai Antu Rua ritual to cast away bad luck, followed by the Miring ceremony where offerings of eggs, tobacco, and rice cakes are placed for the gods. As the clock strikes midnight, the Tuai Rumah (village chief) leads the toast of Ai Pengayu (tuak/rice wine for longevity) with the greeting 'Gayu Guru Gerai Nyamai'. The celebration continues for days with the hypnotic Ngajat warrior dance and the erecting of the Ranyai tree.",
+      "picture_url": "gawai_dayak",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Deepavali (Diwali)",
+      "date": "new moon night (Amavasya) in the lunisolar month of Kartika (around Oct-Nov)",
+      "content": "History: The 'Festival of Lights,' originating from ancient Hindu scriptures. It commonly celebrates the return of Lord Rama after 14 years of exile or Lord Krishna’s defeat of the demon Narakasura.\n\nCelebration: The Deepavali starts before dawn with a ritual oil bath (Ganga Snanam) to cleanse the body and soul, symbolizing a bath in the holy Ganges river. Homes are turned into vibrant art exhibits with Kolam—intricate floor designs made from colored rice or chalk at the entrance to feed insects (an act of charity) and welcome the Goddess Lakshmi—and at night, rows of clay oil lamps (Diyas) are lit to banish darkness, while families enjoy sweetmeats like Laddu and Murukku.",
+      "picture_url": "deepavali",
+      "date_created": "2025-12-22T18:13:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491aa05a4e2edce1dfd1a4"
+  },
+  "country": "south_korea",
+  "type": "festival",
+  "date_updated": "2025-12-22T18:13:00Z",
+  "contents": [
+    {
+      "title": "Seollal (Lunar New Year)",
+      "date": "1st day of the 1st lunar month",
+      "content": "History: Seollal has deep historical roots stretching back centuries, heavily influenced by Confucian traditions. Originally, it served as a significant milestone for agricultural communities, marking a time to pause, reflect, and prepare for the upcoming farming season. Over time, the festival evolved from these agrarian origins—particularly those from the Joseon Dynasty—into a family-centric holiday focused on reinforcing familial bonds and paying respect to ancestors.\n\nCelebration: The central ritual is Sebae, where younger family members in traditional Hanbok perform a deep, formal bow to their elders, wishing them blessings for the new year, after which they receive Sebaetdon (New Year’s money) in silk bags. The family then gathers to eat Tteokguk (sliced rice cake soup), a dish that signifies purity and the gaining of one year in age, followed by playing traditional folk games like Yut Nori (a board game with wooden sticks) and kite flying.",
+      "picture_url": "seollal",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Chuseok (Korean Thanksgiving)",
+      "date": "15th day of the 8th lunar month",
+      "content": "History: Originates from the Silla Kingdom (around 2,000 years ago) as a month-long weaving contest between two teams of women. The losing team prepared food for the winners.\n\nCelebration: Days before the holiday, families travel to ancestral gravesites for Beolcho, the duty of clearing weeds and tidying the area, followed by Seongmyo, a bowing ritual to pay respects. On the day itself, a Charye table is set with freshly harvested rice, fruits, and Songpyeon (half-moon rice cakes steamed over pine needles) as an offering to ancestors, and in the evening, women in some regions join hands in a large circle under the full moon to sing and perform the Ganggangsullae dance.",
+      "picture_url": "chuseok",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Dano",
+      "date": "5th day of the 5th lunar month",
+      "content": "History: An ancient holiday on the 5th day of the 5th lunar month, traditionally marking the end of the sowing season where the farmers prayed for an abundant harvest during that time.\n\nCelebration: Traditionally a day to prepare for the summer heat, women wash their hair in water boiled with Changpo (sweet flag/iris) to give it sheen and ward off evil spirits, while men participate in Ssireum (traditional wrestling) matches in sandpits. It is customary to eat Surichwi rice cakes (stamped with a wheel pattern) and gift traditional fans to friends and family to help them stay cool during the coming summer.",
+      "picture_url": "dano",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Daeboreum",
+      "date": "15th day of the 1st lunar month (First Full Moon)",
+      "content": "History: Daeboreum, or the 'Great Full Moon Festival,' can be traced back to the Three Kingdoms Period and is celebrated on the 15th day of a new lunar year. Established to promote unity and solidarity, the festival starts on Seollal and culminates in various rituals 15 days later.\n\nCelebration: To celebrate the first full moon, people start the day by cracking hard-shelled nuts (walnuts, pine nuts, peanuts) with their teeth—a practice called Bureom—believing the loud crack will scare away spirits and strengthen their teeth and skin for the year. The festivities culminate at night with Daljip Taeugi, where large moon houses made of straw and pine branches are burned in a bonfire to ward off bad luck, often accompanied by Jwibulnori, where people spin cans filled with burning charcoal to create circles of fire in the fields.",
+      "picture_url": "daeboreum",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Buddha’s Birthday",
+      "date": "8th day of the 4th lunar month",
+      "content": "History: Buddhism was introduced to Korea in the 4th century during the Three Kingdoms Period. It quickly became a cornerstone of Korean culture and spirituality. The celebration of Buddha’s Birthday is believed to have begun not long after Buddhism’s introduction, which is established to honor the birth of Prince Siddhartha.\n\nCelebration: Temples across the country offer free vegetarian meals (usually Bibimbap and tea) to all visitors regardless of faith, fostering a spirit of generosity. The visual highlight is the Yeondeunghoe (Lotus Lantern Festival), where a river of thousands of participants carries glowing, handmade lanterns shaped like lotuses, dragons, and elephants through the streets of Seoul, symbolizing the light of wisdom dispelling the darkness of ignorance.",
+      "picture_url": "buddha_birthday",
+      "date_created": "2025-12-22T18:13:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491aa05a4e2edce1dfd1a5"
+  },
+  "country": "thailand",
+  "type": "festival",
+  "date_updated": "2025-12-22T18:13:00Z",
+  "contents": [
+    {
+      "title": "Songkran",
+      "date": "April 13–15",
+      "content": "History: Derived from the Sanskrit word Sankranti, meaning to ‘step into’, ‘enter’ or ‘pass into’. It describes the monthly movement or ‘astrological passage’ within the zodiac from one sphere to the next. It marks the traditional solar New Year.\n\nCelebration: What began as a gentle tradition of Rod Nam Dum Hua—pouring scented water over the palms of elders and Buddha statues to ask for forgiveness and blessings—has evolved into the world's biggest water fight. For three days, streets are closed as pickup trucks loaded with icy water drums and people armed with super-soakers engage in a friendly nationwide war, smearing white talcum powder (symbolizing protection) on each other’s faces, while temples host the contemplative building of elaborate sand pagodas adorned with flags to make merit.",
+      "picture_url": "songkran",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Loy Krathong",
+      "date": "Full moon of the 12th Thai lunar month",
+      "content": "History: Believed to have started in the Sukhothai Kingdom (13th century) to honor the Goddess of Water, Phra Mae Khongkha, and apologize for polluting the rivers.\n\nCelebration: Under the full moon, waterways across the kingdom are illuminated by millions of Krathongs—lotus-shaped baskets/lantern crafted from banana trunks and leaves, holding a candle, incense, and a coin. Thais kneel by the water's edge, light the candle, make a wish, and gently push the basket into the current, often placing a strand of hair or fingernail clipping inside to symbolize the floating away of anger, grief, and bad luck from the previous year, paying homage to the Water Goddess Phra Mae Khongkha.",
+      "picture_url": "loy_krathong",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Phi Ta Khon (Ghost Festival)",
+      "date": "Selected by spirit mediums (usually June/July)",
+      "content": "History: Part of a Buddhist merit-making holiday. It reenacts the legend of Prince Vessantara’s return to his city, which was so joyous it supposedly woke the dead to join the celebration.\n\nCelebration: In the Dan Sai district, young men don terrifying yet colorful masks made from coconut husks and steamed rice steamers, painted with fierce faces and long noses, and wear costumes made of sewn-together fabric strips. They parade through town ringing cowbells and waving wooden phalluses (symbols of fertility) to tease spectators, reenacting the legend of a party so fun that both humans and ghosts attended, eventually ending at the temple for the firing of bamboo rockets and Buddhist sermons.",
+      "picture_url": "phi_ta_khon",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Bun Bang Fai (Rocket Festival)",
+      "date": "Usually 2nd weekend of May",
+      "content": "History: An ancient fertility rite from pre-Buddhist times practiced by the Lao and Isan people. It invokes Phaya Thaen, the god of rain, to send rainfall for the rice planting season.\n\nCelebration: Villagers collaborate for weeks to construct massive, ornately decorated bamboo or PVC rockets packed with gunpowder, which are paraded on floats accompanied by traditional dancers and musicians drinking rice wine. The climax is a high-stakes competition to see whose rocket flies the highest to 'poke' the heavens and wake the Rain God Phaya Thaen; successful launches are cheered, while teams whose rockets fail to ignite or explode on the ground are thrown into muddy puddles as a playful punishment.",
+      "picture_url": "bun_bang_fai",
+      "date_created": "2025-12-22T18:13:00Z"
+    },
+    {
+      "title": "Vegetarian Festival (Tesagan Gin Je)",
+      "date": "1st–9th day of the 9th Chinese lunar month",
+      "content": "History: Originated in Phuket in the 1800s when a Chinese opera troupe fell ill. They adopted a strict vegetarian diet and prayed to the Nine Emperor Gods to be cured.\n\nCelebration: Devotees dressed entirely in white observe a strict 10-day vegan diet to cleanse the body, but the spectacle lies in the processions of the Mah Song (spirit mediums). These mediums enter a trance state and perform shocking acts of self-mortification to shift bad luck away from the community, such as piercing their cheeks with swords, umbrellas, or bicycle frames, and walking barefoot over beds of burning coals, all while onlookers set off deafening chains of firecrackers to drive away evil spirits.",
+      "picture_url": "vegetarian_festival",
+      "date_created": "2025-12-22T18:13:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491b8e5a4e2edce1dfd1a8"
+  },
+  "country": "japan",
+  "type": "food",
+  "date_updated": "2025-12-22T18:18:00Z",
+  "contents": [
+    {
+      "title": "Sushi (Nigiri & Maki)",
+      "content": "Description: Vinegared rice combined with seafood (raw or cooked).\n\nKey Ingredients: Sumeshi (rice seasoned with vinegar, sugar, salt), fresh fish (tuna, salmon, sea bream), wasabi, soy sauce.\n\nCultural Significance & History: Sushi originated in 2nd-century Southeast Asia as a fish preservation method using fermented rice and salt, eventually reaching Japan by the 8th century as nare-zushi. Over time, the process evolved from discarding the fermented rice to consuming it, culminating in the Edo period's haya-zushi, which used vinegar for speed, and the 1824 invention of modern nigiri-zushi by Hanaya Yohei as a fast food. The Great Kanto Earthquake of 1923 shifted sushi from street stalls to indoor restaurants, while its global expansion in the 20th century saw Western adaptations like the California roll and the late introduction of raw salmon in the 1990s via Norwegian trade.",
+      "picture_url": "/images/japan/sushi.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Osechi Ryori (New Year Cuisine)",
+      "content": "Description: Traditional foods served in Ju-bako (lacquered tiered boxes) during New Year.\n\nKey Ingredients: Kuromame (black beans), Kazunoko (herring roe), Tazukuri (candied sardines), Datemaki (sweet omelet).\n\nCultural Significance & History: Osechi ryori originated from sekku, the five seasonal festivals traditionally observed in China. The custom arrived in Japan during the Heian period. The dishes are specifically prepared to welcome the toshigami (New Year gods) and are designed to last for several days. By the Edo period, the dishes became standard, served in jubako to symbolize the 'stacking up' of good fortune.\n\nSymbolism: Every ingredient has a meaning. Black Soybeans represent diligence; Herring Roe symbolizes fertility; Candied Sardines signify a bountiful harvest; Pounded Burdock represents staying rooted; Red and White Kamaboko wards off evil and symbolizes purity; Chestnut Mash symbolizes wealth; Konbu Rolls associate with happiness; Sweet Rolled Omelet represents academic success; Shrimp symbolizes longevity; Sea Bream is auspicious; and Simmered Vegetables represent fertility and family ties.",
+      "picture_url": "/images/japan/osechi_ryori.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Miso Soup (Misoshiru)",
+      "content": "Description: A fermented soybean paste soup that accompanies almost every traditional Japanese meal.\n\nKey Ingredients: Dashi stock (kelp/bonito), Miso paste (fermented soy), tofu, wakame seaweed, green onions.\n\nCultural Significance & History: Miso originated in ancient China and was introduced to Japan during the 7th-century Asuka period, initially as a luxury item. Its use evolved significantly: Buddhist monks in the Kamakura period introduced suribachi mortars to create miso soup, which became a staple of samurai diets (Ichiju-sansai). By the Muromachi period, commoners began making their own miso, and the Sengoku period saw it used as a vital military ration. The Edo period marked the blossoming of miso culture with regional varieties and its status as an indispensable seasoning in Japanese cuisine.",
+      "picture_url": "/images/japan/miso_soup.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491b8e5a4e2edce1dfd1a9"
+  },
+  "country": "indonesia",
+  "type": "food",
+  "date_updated": "2025-12-22T18:18:00Z",
+  "contents": [
+    {
+      "title": "Rendang",
+      "content": "Description: A rich, tender beef dish that is 'dry curry' (sauce is reduced until it coats the meat).\n\nKey Ingredients: Beef, coconut milk, lemongrass, galangal, turmeric leaf, chili, garlic, shallots.\n\nCultural Significance & History: Rendang originated in the 16th century among the Minangkabau people of West Sumatra, who adapted Indian curry techniques to create a dish that could be preserved for weeks. The name comes from 'Marandang' (meaning 'slowly'), reflecting the patience required to simmer the beef for hours. Historically revered as Kepalo Samba (head of dishes), it was reserved for sacred ceremonies. Its durability allowed it to travel with Minangkabau migrants, eventually earning recognition as an official Indonesian national dish and the title of the world's best food by CNN.",
+      "picture_url": "/images/indonesia/rendang.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Nasi Tumpeng",
+      "content": "Description: Cone-shaped yellow turmeric rice surrounded by various side dishes (chicken, tempeh, anchovies, egg).\n\nKey Ingredients: Rice, turmeric, coconut milk. Sides vary but usually include 7 elements.\n\nCultural Significance & History: A cone-shaped rice dish rooted in Javanese tradition, dating back to the 12th century. Its shape represents devotion to God and mirrors the mountainous landscape of Java (Mount Semeru). Every element is laden with meaning: the rice signifies the journey from suffering to maturity, while sides like whole chicken represent gestures to God. Originally designed to teach moral values and communal cooperation (gotong royong), Tumpeng remains a sacred component of Indonesian celebrations.",
+      "picture_url": "/images/indonesia/nasi_tumpeng.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Tempeh",
+      "content": "Description: A cake of fermented whole soybeans.\n\nKey Ingredients: Soybeans, Rhizopus oligosporus (fungus starter).\n\nCultural Significance & History: Unlike Tofu, Tempeh is an indigenous Indonesian food with roots in Central Java around the 1600s. Recorded in ancient literature like the Serat Sri Tanjung and Serat Centhini, it has been a staple source of nutrition for hundreds of years. Tempe represents a sustainable and affordable food source that has spread globally, symbolizing cultural identity and resilience while playing a vital role in combating malnutrition.",
+      "picture_url": "/images/indonesia/tempeh.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491b8e5a4e2edce1dfd1aa"
+  },
+  "country": "malaysia",
+  "type": "food",
+  "date_updated": "2025-12-22T18:18:00Z",
+  "contents": [
+    {
+      "title": "Nasi Lemak",
+      "content": "Description: Rice cooked in coconut milk and pandan leaves, served with essential sides.\n\nKey Ingredients: Coconut milk, pandan, Sambal (chili paste), fried anchovies (Ikan Bilis), peanuts, cucumber, boiled egg.\n\nCultural Significance & History: Considered Malaysia's greatest culinary achievement and a unifying cultural icon. Its name translates to 'rich rice,' referring to the coconut cream cooking method first documented in 1909. Origins are rooted in local lore, from the practical 'Farmer's Story' to the folklore of a girl named Seri. Today, Nasi Lemak remains a vibrant part of Malaysian identity, evolving from traditional banana-leaf packaging to modern adaptations.",
+      "picture_url": "/images/malaysia/nasi_lemak.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Laksa (Assam & Curry)",
+      "content": "Description: A spiced noodle soup. Assam Laksa (Penang) uses fish broth with tamarind (sour), while Curry Laksa (KL) uses coconut curry broth (creamy).\n\nKey Ingredients: Rice noodles, mackerel (for Assam), coconut milk (for Curry), lemongrass, galangal, laksa leaves (Vietnamese mint).\n\nCultural Significance & History: Laksa is a celebrated spicy noodle soup rooted in Peranakan (Baba Nyonya) culture, a heritage blending Chinese, Malay, and Indonesian influences. Theories on the name include the Sanskrit word 'lakshas' (one hundred thousand) or Cantonese 'lɐ̀t sá' (spicy sand). It manifests primarily in two forms: the rich, coconut-infused Curry Laksa and the tangy, fish-based Assam Laksa.",
+      "picture_url": "/images/malaysia/laksa.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Satay (Sate)",
+      "content": "Description: Marinated meat skewers grilled over charcoal.\n\nKey Ingredients: Turmeric (gives the yellow color), lemongrass, cumin, coriander. Served with Kuah Kacang (peanut sauce) and Nasi Impit (compressed rice cubes).\n\nCultural Significance & History: Satay traces its origins to the Middle East but evolved into a Southeast Asian delicacy via the Spice Trade. Arab and Indian traders introduced the kebab to Java, where street vendors adapted it using bamboo skewers. From Java, it spread across the archipelago, evolving into varieties like Sate Kajang and Satay Celup. It serves as a reflection of local culture, blending regional marinades with the universal appeal of grilled meat.",
+      "picture_url": "/images/malaysia/satay.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491b8e5a4e2edce1dfd1ab"
+  },
+  "country": "south_korea",
+  "type": "food",
+  "date_updated": "2025-12-22T18:18:00Z",
+  "contents": [
+    {
+      "title": "Kimchi",
+      "content": "Description: Fermented vegetables.\n\nKey Ingredients: Napa cabbage, Korean radish, Gochugaru (red chili flakes), garlic, ginger, salted shrimp/anchovy sauce.\n\nCultural Significance & History: Kimchi has been an integral part of Korean food culture for millennia, with records suggesting consumption for at least 2,000 years. Its cultural significance is anchored in 'kimjang,' the traditional communal practice of preparing large quantities of kimchi for winter, which embodies sharing and social solidarity. This tradition was inscribed on the UNESCO Intangible Cultural Heritage list in 2013, reinforcing kimchi as a symbol of Korean identity.",
+      "picture_url": "/images/south_korea/kimchi.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Bibimbap",
+      "content": "Description: Mixed rice bowl.\n\nKey Ingredients: Rice, Namul (seasoned vegetables like spinach, bean sprouts, fernbrake), Gochujang (chili paste), sesame oil, egg.\n\nCultural Significance & History: Bibimbap derives from the Joseon Period dish Goldongban, which was eaten on Lunar New Year's Eve to clear out pantry leftovers. Theories suggest it originated to feed farmers during harvests or from ancestral rites (jesa). Culturally, the dish emphasizes participation through the ritual of mixing the rice, vegetables, and sauces immediately before consumption, turning the diner into the final chef.",
+      "picture_url": "/images/south_korea/bibimbap.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Tteokguk (Rice Cake Soup)",
+      "content": "Description: Sliced white rice cakes in a clear beef or anchovy broth.\n\nKey Ingredients: Garaetteok (long cylinder rice cake), beef brisket, egg garnish, seaweed.\n\nCultural Significance & History: Traced back to the Joseon Dynasty, tteokguk is eaten on Seollal (Lunar New Year) to signify gaining one year in age. The long white rice cakes represent longevity, while the coin-like slices symbolize prosperity. The clear broth represents a fresh start for the new year. Originally a dish for aristocrats, it is now a national tradition cemented by media coverage in the 1960s.",
+      "picture_url": "/images/south_korea/tteokguk.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69491b8e5a4e2edce1dfd1ac"
+  },
+  "country": "thailand",
+  "type": "food",
+  "date_updated": "2025-12-22T18:18:00Z",
+  "contents": [
+    {
+      "title": "Pad Thai",
+      "content": "Description: Stir-fried rice noodles.\n\nKey Ingredients: Rice noodles, tamarind pulp (sour), palm sugar (sweet), fish sauce (salty), dried chili (spicy), peanuts, egg, tofu, dried shrimp.\n\nCultural Significance & History: Synonymous with Thai identity, its creation was a political move in the late 1930s by Prime Minister Phibun to forge a national identity and address a rice shortage. By promoting noodles over rice through nationalistic mandates, Phibun transformed a government strategy into a beloved national staple that defines Thai cuisine globally.",
+      "picture_url": "/images/thailand/pad_thai.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Tom Yum Goong",
+      "content": "Description: Spicy and sour prawn soup.\n\nKey Ingredients: River prawns, Nam Prik Pao (chili jam), lemongrass, galangal, kaffir lime leaves.\n\nCultural Significance & History: A signature hot and sour soup believed to have originated in Central Thailand due to the abundance of fresh shrimp. Its name comes from 'Tom' (boiling) and 'Yam' (spicy and sour). It has become a global ambassador for Thai culture. The 1997 Asian financial crisis is famously nicknamed the 'Tom Yum Goong crisis' due to its cultural significance.",
+      "picture_url": "/images/thailand/tom_yum_goong.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    },
+    {
+      "title": "Som Tum (Green Papaya Salad)",
+      "content": "Description: A raw salad pounded in a mortar and pestle.\n\nKey Ingredients: Unripe (green) papaya, long beans, tomatoes, bird's eye chili, garlic, palm sugar, lime, fish sauce.\n\nCultural Significance & History: Translating to 'pounded sourness,' Som Tum likely originated in the Isan region and Laos as 'tam som'. Isan migrants brought the dish to Bangkok, where it evolved into variations like Som Tum Thai. Described as a 'high energy' group dish meant to be shared, it symbolizes the diversity of Thai cuisine by unifying sour, sweet, salty, and spicy flavors.",
+      "picture_url": "/images/thailand/som_tum.jpg",
+      "date_created": "2025-12-22T18:18:00Z"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "694921015a4e2edce1dfd1ae"
+  },
+  "country": "japan",
+  "type": "funfact",
+  "contents": [
+    {
+      "title": "Cherry Blossom Forecast",
+      "content": "During the Hanami (Cherry Blossom) season, the obsession with the 'perfect bloom' is so intense that the Japan Meteorological Agency provides a highly detailed 'Cherry Blossom Forecast' (Sakura Zensen). This forecast tracks the 'cherry blossom front' as it moves from Okinawa in the south to Hokkaido in the north, and it is reported daily on the news like a weather report. They also have specific doctors (arborists) to take care of the trees.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "hanami_forecast"
+    },
+    {
+      "title": "Osechi Ryori Layers",
+      "content": "In Osechi Ryori (New Year food), the layers of the jubako (lacquered box) are not just for show. The top tier is for 'celebratory snacks' (like black beans) to drink with sake, while the bottom tier is traditionally left empty. This is to symbolize that there is still 'space' for more good fortune to enter the family's life in the coming year.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "osechi_ryori_layers"
+    },
+    {
+      "title": "Vending Machine Density",
+      "content": "Japan has one of the highest densities of vending machines in the world, with approximately 1 machine for every 40 people (over 2.6 million total). You can buy almost anything from them, including hot coffee, umbrellas, ties, and even fresh soup stock.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "vending_machine"
+    },
+    {
+      "title": "Inemuri (Sleeping on the Job)",
+      "content": "Sleeping on the job, known as 'Inemuri', is socially accepted and often viewed as a sign of diligence—proof that you are working yourself to exhaustion. It literally translates to 'being present while sleeping.'",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "inemuri"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "694921015a4e2edce1dfd1af"
+  },
+  "country": "indonesia",
+  "type": "funfact",
+  "contents": [
+    {
+      "title": "Rendang Preservation",
+      "content": "Rendang, the famous beef dish, was originally created by the Minangkabau people as a way to preserve meat for long journeys. Because it is slow-cooked until all liquid evaporates and the spices act as preservatives, authentic dry Rendang can last for up to three weeks at room temperature without spoiling.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "rendang_preservation"
+    },
+    {
+      "title": "Silent Airport (Nyepi)",
+      "content": "During Nyepi (Day of Silence) in Bali, the silence is so strictly enforced that even the airport (Ngurah Rai International Airport) shuts down for 24 hours. It is the only airport in the world that closes annually for a religious holiday. The only exceptions allowed on the streets are emergency vehicles.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "nyepi_silent"
+    },
+    {
+      "title": "Komodo Dragons",
+      "content": "Indonesia is the only place in the world where you can see Komodo Dragons in the wild (in the Komodo National Park). These are the world's largest lizards, capable of growing up to 3 meters (10 feet) long and weighing over 70 kg.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "komodo_dragons"
+    },
+    {
+      "title": "Rafflesia Arnoldii",
+      "content": "Indonesia is one of the places home to the Rafflesia Arnoldii, the flower with the world's largest bloom. It can grow up to 1 meter in diameter and weighs up to 11 kg. It is often called the 'corpse flower' because it smells like rotting meat to attract flies.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "rafflesia"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "694921015a4e2edce1dfd1b0"
+  },
+  "country": "malaysia",
+  "type": "funfact",
+  "contents": [
+    {
+      "title": "Yee Sang Toss Ritual",
+      "content": "For the Yee Sang (raw fish salad) toss during Chinese New Year, there is a specific order to adding the ingredients, and each step comes with a specific 'lucky phrase' (Chengyu). For example, when adding the oil, you say 'Cai Yuan Guang Jin' (May wealth pour in from all directions). The higher you toss the salad with your chopsticks, the higher your 'status' and luck will rise in the new year.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "yee_sang"
+    },
+    {
+      "title": "Nasi Lemak Fashion",
+      "content": "Nasi Lemak is so beloved that Malaysians have turned it into everything from ice cream and cheesecake to 'Nasi Lemak Miss Universe dresses.' In 2017, Miss Universe Malaysia wore a dress designed to look like a Nasi Lemak package, complete with beaded 'rice,' 'sambal,' and 'cucumber' wings.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "nasi_lemak_ice_cream"
+    },
+    {
+      "title": "Sarawak Chamber",
+      "content": "The Sarawak Chamber in Gunung Mulu National Park is the largest known cave chamber in the world by area. It is so massive that it could theoretically house 40 Boeing 747 aircrafts without their wings touching.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "sarawak_chamber"
+    },
+    {
+      "title": "Taman Negara Age",
+      "content": "Taman Negara is one of the oldest rainforests in the world, estimated to be 130 million years old. It is older than the Amazon rainforest and the Congo basin, having remained largely undisturbed by ice ages.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "taman_negara"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "694921015a4e2edce1dfd1b1"
+  },
+  "country": "south_korea",
+  "type": "funfact",
+  "contents": [
+    {
+      "title": "Kimchi Premium",
+      "content": "There is a 'Kimchi Premium' in Korea (similar to the Big Mac Index). Because Kimchi is so essential to daily life, the government monitors the price of napa cabbage and radishes closely. During 'Kimchi Crisis' years (due to typhoons or drought), the government has even used military transport planes to airlift cabbage from Jeju Island to the mainland to stabilize prices.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "kimchi_premium"
+    },
+    {
+      "title": "Ear-Sharpening Wine",
+      "content": "On Daeboreum (First Full Moon), people drink 'Ear-Sharpening Wine' (Gwibalki-sul). It is believed that drinking this cold sake in the morning will sharpen your hearing so you can hear 'good news' all year round.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "daeboreum_moon"
+    },
+    {
+      "title": "Plastic Surgery Capital",
+      "content": "South Korea is often called the 'Plastic Surgery Capital of the World,' having the highest rate of cosmetic surgeries per capita globally. It is estimated that one in five Korean women has undergone some form of cosmetic procedure.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "plastic_surgery"
+    },
+    {
+      "title": "Common Surnames",
+      "content": "Approximately half of the entire South Korean population shares just three surnames: Kim, Lee, and Park. 'Kim' is the most common, held by about 20% of the population.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "korean_man"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "694921015a4e2edce1dfd1b2"
+  },
+  "country": "thailand",
+  "type": "funfact",
+  "contents": [
+    {
+      "title": "Monkey Buffet Festival",
+      "content": "The Monkey Buffet Festival is exactly what it sounds like. It is not a festival for humans, but for the thousands of long-tailed macaques living in Lopburi. Locals set up massive banquet tables with tons of fruit, vegetables, and sticky rice to thank the monkeys for bringing tourism to the town. It is one of the strangest festivals in the world.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "monkey_buffet"
+    },
+    {
+      "title": "Pad Thai Origins",
+      "content": "Pad Thai was established as Thailand's national dish in the late 1930s by Prime Minister Phibun to foster national unity and prevent colonization by creating a distinct cultural identity. Despite its iconic Thai status, the dish actually has Chinese origins. It is celebrated for masterfully balancing five distinct flavors—spicy, salty, sweet, sour, and bitter—in a single dish.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "never_colonized"
+    },
+    {
+      "title": "Longest Place Name (Bangkok)",
+      "content": "Bangkok holds the Guinness World Record for the longest place name. While foreigners say 'Bangkok,' the official Thai name is: Krung Thep Mahanakhon Amon Rattanakosin Mahinthara Ayuthaya Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet Mahasathan Amon Piman Awatan Sathit Sakkathattiya Witsanukam Prasit.",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "bangkok"
+    },
+    {
+      "title": "Never Colonized",
+      "content": "Thailand is the only country in Southeast Asia that was never colonized by a European power. It served as a 'buffer state' between British Burma and French Indochina, a feat credited to the diplomatic skills of its monarchs (King Rama IV and V).",
+      "date_created": "2025-12-22T18:30:00Z",
+      "date_updated": "2025-12-22T18:30:00Z",
+      "reactions": [],
+      "picture_url": "pad_thai_origins"
+    }
+  ]
+}]

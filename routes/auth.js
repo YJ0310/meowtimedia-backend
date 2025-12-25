@@ -1,5 +1,6 @@
 const express = require('express');
 const passport = require('passport');
+const { User } = require('../models');
 const router = express.Router();
 
 // @route   GET /auth/google
@@ -75,20 +76,57 @@ router.get('/logout', (req, res) => {
 });
 
 // @route   GET /auth/user
-// @desc    Get current user
-router.get('/user', (req, res) => {
+// @desc    Get current user with progress data
+router.get('/user', async (req, res) => {
   if (req.user) {
-    res.json({
-      success: true,
-      user: {
-        id: req.user._id || req.user.id,
-        email: req.user.email,
-        displayName: req.user.displayName,
-        firstName: req.user.firstName,
-        lastName: req.user.lastName,
-        avatar: req.user.avatar,
-      },
-    });
+    try {
+      // Fetch full user data with progress
+      const userId = req.user._id || req.user.id;
+      const user = await User.findById(userId);
+      
+      if (!user) {
+        return res.status(404).json({
+          success: false,
+          message: 'User not found',
+        });
+      }
+
+      // Build countries progress response
+      const countriesProgress = (user.countriesProgress || []).map(cp => ({
+        countrySlug: cp.countrySlug,
+        lastQuizTime: cp.lastQuizTime,
+        lastQuizScore: cp.lastQuizScore,
+        highestScore: cp.highestScore,
+        totalAttempts: cp.totalAttempts,
+        stampCollectedAt: cp.stampCollectedAt,
+        hasStamp: !!cp.stampCollectedAt,
+      }));
+
+      // Count total stamps
+      const totalStamps = countriesProgress.filter(cp => cp.hasStamp).length;
+
+      res.json({
+        success: true,
+        user: {
+          id: user._id,
+          email: user.email,
+          displayName: user.displayName,
+          firstName: user.firstName,
+          lastName: user.lastName,
+          avatar: user.avatar,
+          totalStamps,
+          countriesProgress,
+          createdAt: user.createdAt,
+          lastLoginAt: user.lastLoginAt,
+        },
+      });
+    } catch (error) {
+      console.error('Error fetching user data:', error);
+      res.status(500).json({
+        success: false,
+        message: 'Error fetching user data',
+      });
+    }
   } else {
     res.status(401).json({
       success: false,

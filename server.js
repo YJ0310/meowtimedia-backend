@@ -5,6 +5,7 @@ const session = require('express-session');
 const cors = require('cors');
 const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
+const countryRoutes = require('./routes/country');
 const { isAuthenticated } = require('./middleware/auth');
 const connectDB = require('./lib/mongodb');
 
@@ -54,16 +55,24 @@ app.use(passport.session());
 
 // Routes
 app.use('/auth', authRoutes);
+app.use('/country', countryRoutes);
 
 // Home route
 app.get('/', (req, res) => {
   res.json({
     message: 'Meowtimedia Backend API',
     endpoints: {
-      login: 'GET /auth/google',
-      callback: 'GET /auth/google/callback',
-      user: 'GET /auth/user',
-      logout: 'GET /auth/logout',
+      auth: {
+        login: 'GET /auth/google',
+        callback: 'GET /auth/google/callback',
+        user: 'GET /auth/user',
+        logout: 'GET /auth/logout',
+      },
+      country: {
+        content: 'GET /country/:slug - Get country festivals, food, funfacts',
+        quiz: 'GET /country/:slug/quiz - Get quiz questions',
+        update: 'POST /country/:slug/update - Update quiz results (auth required)',
+      },
       protected: 'GET /api/protected',
     },
   });

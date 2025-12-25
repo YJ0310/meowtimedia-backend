@@ -1,5 +1,31 @@
 const mongoose = require('mongoose');
 
+// Schema for country progress tracking
+const countryProgressSchema = new mongoose.Schema({
+  countrySlug: {
+    type: String,
+    required: true,
+  },
+  lastQuizTime: {
+    type: Date,
+  },
+  lastQuizScore: {
+    type: Number,
+    default: 0,
+  },
+  highestScore: {
+    type: Number,
+    default: 0,
+  },
+  totalAttempts: {
+    type: Number,
+    default: 0,
+  },
+  stampCollectedAt: {
+    type: Date, // null if stamp not earned yet
+  },
+}, { _id: false });
+
 const userSchema = new mongoose.Schema({
   googleId: {
     type: String,
@@ -34,22 +60,8 @@ const userSchema = new mongoose.Schema({
     type: String,
     maxlength: 500,
   },
-  // User progress tracking
-  countriesVisited: [{
-    type: String, // country slug
-  }],
-  stampsCollected: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Stamp',
-  }],
-  quizzesCompleted: [{
-    quizId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Quiz',
-    },
-    score: Number,
-    completedAt: Date,
-  }],
+  // User progress tracking - enhanced with country progress
+  countriesProgress: [countryProgressSchema],
   // Account metadata
   createdAt: {
     type: Date,

@@ -1,0 +1,127 @@
+[
+  {
+    "country": "japan",
+    "type": "food",
+    "date_updated": "2025-12-22T18:18:00Z",
+    "contents": [
+      {
+        "title": "Sushi (Nigiri & Maki)",
+        "content": "Description: Vinegared rice combined with seafood (raw or cooked).\n\nKey Ingredients: Sumeshi (rice seasoned with vinegar, sugar, salt), fresh fish (tuna, salmon, sea bream), wasabi, soy sauce.\n\nCultural Significance & History: Sushi originated in 2nd-century Southeast Asia as a fish preservation method using fermented rice and salt, eventually reaching Japan by the 8th century as nare-zushi. Over time, the process evolved from discarding the fermented rice to consuming it, culminating in the Edo period's haya-zushi, which used vinegar for speed, and the 1824 invention of modern nigiri-zushi by Hanaya Yohei as a fast food. The Great Kanto Earthquake of 1923 shifted sushi from street stalls to indoor restaurants, while its global expansion in the 20th century saw Western adaptations like the California roll and the late introduction of raw salmon in the 1990s via Norwegian trade.",
+        "picture_url": "/images/japan/sushi.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Osechi Ryori (New Year Cuisine)",
+        "content": "Description: Traditional foods served in Ju-bako (lacquered tiered boxes) during New Year.\n\nKey Ingredients: Kuromame (black beans), Kazunoko (herring roe), Tazukuri (candied sardines), Datemaki (sweet omelet).\n\nCultural Significance & History: Osechi ryori originated from sekku, the five seasonal festivals traditionally observed in China. The custom arrived in Japan during the Heian period. The dishes are specifically prepared to welcome the toshigami (New Year gods) and are designed to last for several days. By the Edo period, the dishes became standard, served in jubako to symbolize the 'stacking up' of good fortune.\n\nSymbolism: Every ingredient has a meaning. Black Soybeans represent diligence; Herring Roe symbolizes fertility; Candied Sardines signify a bountiful harvest; Pounded Burdock represents staying rooted; Red and White Kamaboko wards off evil and symbolizes purity; Chestnut Mash symbolizes wealth; Konbu Rolls associate with happiness; Sweet Rolled Omelet represents academic success; Shrimp symbolizes longevity; Sea Bream is auspicious; and Simmered Vegetables represent fertility and family ties.",
+        "picture_url": "/images/japan/osechi_ryori.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Miso Soup (Misoshiru)",
+        "content": "Description: A fermented soybean paste soup that accompanies almost every traditional Japanese meal.\n\nKey Ingredients: Dashi stock (kelp/bonito), Miso paste (fermented soy), tofu, wakame seaweed, green onions.\n\nCultural Significance & History: Miso originated in ancient China and was introduced to Japan during the 7th-century Asuka period, initially as a luxury item. Its use evolved significantly: Buddhist monks in the Kamakura period introduced suribachi mortars to create miso soup, which became a staple of samurai diets (Ichiju-sansai). By the Muromachi period, commoners began making their own miso, and the Sengoku period saw it used as a vital military ration. The Edo period marked the blossoming of miso culture with regional varieties and its status as an indispensable seasoning in Japanese cuisine.",
+        "picture_url": "/images/japan/miso_soup.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      }
+    ]
+  },
+  {
+    "country": "indonesia",
+    "type": "food",
+    "date_updated": "2025-12-22T18:18:00Z",
+    "contents": [
+      {
+        "title": "Rendang",
+        "content": "Description: A rich, tender beef dish that is 'dry curry' (sauce is reduced until it coats the meat).\n\nKey Ingredients: Beef, coconut milk, lemongrass, galangal, turmeric leaf, chili, garlic, shallots.\n\nCultural Significance & History: Rendang originated in the 16th century among the Minangkabau people of West Sumatra, who adapted Indian curry techniques to create a dish that could be preserved for weeks. The name comes from 'Marandang' (meaning 'slowly'), reflecting the patience required to simmer the beef for hours. Historically revered as Kepalo Samba (head of dishes), it was reserved for sacred ceremonies. Its durability allowed it to travel with Minangkabau migrants, eventually earning recognition as an official Indonesian national dish and the title of the world's best food by CNN.",
+        "picture_url": "/images/indonesia/rendang.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Nasi Tumpeng",
+        "content": "Description: Cone-shaped yellow turmeric rice surrounded by various side dishes (chicken, tempeh, anchovies, egg).\n\nKey Ingredients: Rice, turmeric, coconut milk. Sides vary but usually include 7 elements.\n\nCultural Significance & History: A cone-shaped rice dish rooted in Javanese tradition, dating back to the 12th century. Its shape represents devotion to God and mirrors the mountainous landscape of Java (Mount Semeru). Every element is laden with meaning: the rice signifies the journey from suffering to maturity, while sides like whole chicken represent gestures to God. Originally designed to teach moral values and communal cooperation (gotong royong), Tumpeng remains a sacred component of Indonesian celebrations.",
+        "picture_url": "/images/indonesia/nasi_tumpeng.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Tempeh",
+        "content": "Description: A cake of fermented whole soybeans.\n\nKey Ingredients: Soybeans, Rhizopus oligosporus (fungus starter).\n\nCultural Significance & History: Unlike Tofu, Tempeh is an indigenous Indonesian food with roots in Central Java around the 1600s. Recorded in ancient literature like the Serat Sri Tanjung and Serat Centhini, it has been a staple source of nutrition for hundreds of years. Tempe represents a sustainable and affordable food source that has spread globally, symbolizing cultural identity and resilience while playing a vital role in combating malnutrition.",
+        "picture_url": "/images/indonesia/tempeh.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      }
+    ]
+  },
+  {
+    "country": "malaysia",
+    "type": "food",
+    "date_updated": "2025-12-22T18:18:00Z",
+    "contents": [
+      {
+        "title": "Nasi Lemak",
+        "content": "Description: Rice cooked in coconut milk and pandan leaves, served with essential sides.\n\nKey Ingredients: Coconut milk, pandan, Sambal (chili paste), fried anchovies (Ikan Bilis), peanuts, cucumber, boiled egg.\n\nCultural Significance & History: Considered Malaysia's greatest culinary achievement and a unifying cultural icon. Its name translates to 'rich rice,' referring to the coconut cream cooking method first documented in 1909. Origins are rooted in local lore, from the practical 'Farmer's Story' to the folklore of a girl named Seri. Today, Nasi Lemak remains a vibrant part of Malaysian identity, evolving from traditional banana-leaf packaging to modern adaptations.",
+        "picture_url": "/images/malaysia/nasi_lemak.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Laksa (Assam & Curry)",
+        "content": "Description: A spiced noodle soup. Assam Laksa (Penang) uses fish broth with tamarind (sour), while Curry Laksa (KL) uses coconut curry broth (creamy).\n\nKey Ingredients: Rice noodles, mackerel (for Assam), coconut milk (for Curry), lemongrass, galangal, laksa leaves (Vietnamese mint).\n\nCultural Significance & History: Laksa is a celebrated spicy noodle soup rooted in Peranakan (Baba Nyonya) culture, a heritage blending Chinese, Malay, and Indonesian influences. Theories on the name include the Sanskrit word 'lakshas' (one hundred thousand) or Cantonese 'lɐ̀t sá' (spicy sand). It manifests primarily in two forms: the rich, coconut-infused Curry Laksa and the tangy, fish-based Assam Laksa.",
+        "picture_url": "/images/malaysia/laksa.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Satay (Sate)",
+        "content": "Description: Marinated meat skewers grilled over charcoal.\n\nKey Ingredients: Turmeric (gives the yellow color), lemongrass, cumin, coriander. Served with Kuah Kacang (peanut sauce) and Nasi Impit (compressed rice cubes).\n\nCultural Significance & History: Satay traces its origins to the Middle East but evolved into a Southeast Asian delicacy via the Spice Trade. Arab and Indian traders introduced the kebab to Java, where street vendors adapted it using bamboo skewers. From Java, it spread across the archipelago, evolving into varieties like Sate Kajang and Satay Celup. It serves as a reflection of local culture, blending regional marinades with the universal appeal of grilled meat.",
+        "picture_url": "/images/malaysia/satay.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      }
+    ]
+  },
+  {
+    "country": "south_korea",
+    "type": "food",
+    "date_updated": "2025-12-22T18:18:00Z",
+    "contents": [
+      {
+        "title": "Kimchi",
+        "content": "Description: Fermented vegetables.\n\nKey Ingredients: Napa cabbage, Korean radish, Gochugaru (red chili flakes), garlic, ginger, salted shrimp/anchovy sauce.\n\nCultural Significance & History: Kimchi has been an integral part of Korean food culture for millennia, with records suggesting consumption for at least 2,000 years. Its cultural significance is anchored in 'kimjang,' the traditional communal practice of preparing large quantities of kimchi for winter, which embodies sharing and social solidarity. This tradition was inscribed on the UNESCO Intangible Cultural Heritage list in 2013, reinforcing kimchi as a symbol of Korean identity.",
+        "picture_url": "/images/south_korea/kimchi.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Bibimbap",
+        "content": "Description: Mixed rice bowl.\n\nKey Ingredients: Rice, Namul (seasoned vegetables like spinach, bean sprouts, fernbrake), Gochujang (chili paste), sesame oil, egg.\n\nCultural Significance & History: Bibimbap derives from the Joseon Period dish Goldongban, which was eaten on Lunar New Year's Eve to clear out pantry leftovers. Theories suggest it originated to feed farmers during harvests or from ancestral rites (jesa). Culturally, the dish emphasizes participation through the ritual of mixing the rice, vegetables, and sauces immediately before consumption, turning the diner into the final chef.",
+        "picture_url": "/images/south_korea/bibimbap.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Tteokguk (Rice Cake Soup)",
+        "content": "Description: Sliced white rice cakes in a clear beef or anchovy broth.\n\nKey Ingredients: Garaetteok (long cylinder rice cake), beef brisket, egg garnish, seaweed.\n\nCultural Significance & History: Traced back to the Joseon Dynasty, tteokguk is eaten on Seollal (Lunar New Year) to signify gaining one year in age. The long white rice cakes represent longevity, while the coin-like slices symbolize prosperity. The clear broth represents a fresh start for the new year. Originally a dish for aristocrats, it is now a national tradition cemented by media coverage in the 1960s.",
+        "picture_url": "/images/south_korea/tteokguk.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      }
+    ]
+  },
+  {
+    "country": "thailand",
+    "type": "food",
+    "date_updated": "2025-12-22T18:18:00Z",
+    "contents": [
+      {
+        "title": "Pad Thai",
+        "content": "Description: Stir-fried rice noodles.\n\nKey Ingredients: Rice noodles, tamarind pulp (sour), palm sugar (sweet), fish sauce (salty), dried chili (spicy), peanuts, egg, tofu, dried shrimp.\n\nCultural Significance & History: Synonymous with Thai identity, its creation was a political move in the late 1930s by Prime Minister Phibun to forge a national identity and address a rice shortage. By promoting noodles over rice through nationalistic mandates, Phibun transformed a government strategy into a beloved national staple that defines Thai cuisine globally.",
+        "picture_url": "/images/thailand/pad_thai.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Tom Yum Goong",
+        "content": "Description: Spicy and sour prawn soup.\n\nKey Ingredients: River prawns, Nam Prik Pao (chili jam), lemongrass, galangal, kaffir lime leaves.\n\nCultural Significance & History: A signature hot and sour soup believed to have originated in Central Thailand due to the abundance of fresh shrimp. Its name comes from 'Tom' (boiling) and 'Yam' (spicy and sour). It has become a global ambassador for Thai culture. The 1997 Asian financial crisis is famously nicknamed the 'Tom Yum Goong crisis' due to its cultural significance.",
+        "picture_url": "/images/thailand/tom_yum_goong.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      },
+      {
+        "title": "Som Tum (Green Papaya Salad)",
+        "content": "Description: A raw salad pounded in a mortar and pestle.\n\nKey Ingredients: Unripe (green) papaya, long beans, tomatoes, bird's eye chili, garlic, palm sugar, lime, fish sauce.\n\nCultural Significance & History: Translating to 'pounded sourness,' Som Tum likely originated in the Isan region and Laos as 'tam som'. Isan migrants brought the dish to Bangkok, where it evolved into variations like Som Tum Thai. Described as a 'high energy' group dish meant to be shared, it symbolizes the diversity of Thai cuisine by unifying sour, sweet, salty, and spicy flavors.",
+        "picture_url": "/images/thailand/som_tum.jpg",
+        "date_created": "2025-12-22T18:18:00Z"
+      }
+    ]
+  }
+]

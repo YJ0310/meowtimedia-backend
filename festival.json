@@ -1,0 +1,219 @@
+[
+  {
+    "country": "japan",
+    "type": "festival",
+    "date_updated": "2025-12-22T18:13:00Z",
+    "contents": [
+      {
+        "title": "Shogatsu (New Year)",
+        "date": "Jan 1",
+        "content": "History: Shōgatsu (Japanese New Year) originated from 6th and 7th-century Chinese traditions and the imperial chōga ritual, where subjects gathered to pledge loyalty to the emperor. Over time, this courtly ceremony spread to the provinces and eventually the general populace, evolving into a family-centric tradition defined by thorough cleaning, formal attire, and communal feasting. Although Japan later shifted from the lunar to the Gregorian calendar, the festival retains its ancient significance as a spiritual period for returning to one’s ancestral home to renew social ties and welcome prosperity.\n\nCelebration: Celebrations begin on New Year's Eve with Joya no Kane, where Buddhist temples ring their bells 108 times to banish the 108 worldly desires, followed immediately by Hatsumode, the first shrine visit of the year where millions pray for good health, happiness and success in the coming year and purchase omamori (charms). At home, families gather to eat Osechi Ryori (elaborately prepared dishes in tiered boxes) and Ozoni (mochi soup), while children eagerly await Otoshidama, special envelopes containing money gifted by parents and relatives.",
+        "picture_url": "/images/japan/hatsumode.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Hanami (Cherry Blossom Festival)",
+        "date": "Late March – Early April",
+        "content": "History: Started in the Nara Period (710–794) originally admiring plum blossoms (influenced by China). By the Heian Period, the focus shifted to sakura (cherry blossoms), and the practice became a leisure activity for the imperial court before spreading to the samurai and commoners.\n\nCelebration: This celebration is less about ceremony and more about communal enjoyment, where friends, families, and coworkers claim spots under blooming sakura trees with blue tarps early in the morning for day-long picnics. The atmosphere is rowdy and cheerful, fueled by sake, beer, and seasonal bento boxes, often extending into the night (Yozakura) when the trees are illuminated with paper lanterns to highlight the ethereal, fleeting beauty of the blossoms.",
+        "picture_url": "/images/japan/hanami.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Gion Matsuri",
+        "date": "July 1–31 (Main parades: July 17 & 24)",
+        "content": "History: Originated in 869 AD during a severe plague. The emperor ordered a purification ritual at Yasaka Shrine to appease the gods and halt the epidemic. It has continued for over 1,000 years.\n\nCelebration: Held in Kyoto, it features massive, hand-built wooden floats (yamaboko) filled with musicians, which are pulled through the streets. The highlight is the Yamaboko Junko, a grand procession where massive floats weighing up to 12 tons—assembled without a single nail—are pulled through Kyoto’s streets by teams of men to the rhythm of Gion-bayashi music. Leading up to the parade, the Yoiyama street parties see locals opening their traditional merchant homes to display heirlooms.",
+        "picture_url": "/images/japan/gion_matsuri.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Obon",
+        "date": "July 7",
+        "content": "History: Based on the Ullambana Sutra (Buddhist scripture) and the legend of Monk Mokuren, who saved his deceased mother from the realm of hungry ghosts. It fused with indigenous Japanese ancestor worship.\n\nCelebration: The festival opens with Mukaebi (welcoming fires) lit at home entrances to guide ancestral spirits back to the earthly realm, after which families clean gravesites and make food offerings. Communities gather in parks or temple grounds to perform the Bon Odori, a hypnotic circle dance around a central scaffold (yagura), and the event concludes with Okuribi (sending-off fires), such as the famous hillside bonfires in Kyoto or floating lanterns (Toro Nagashi) down rivers to guide spirits back to the afterlife.",
+        "picture_url": "/images/japan/toro_nagashi.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Tanabata (Star Festival)",
+        "date": "Aug 13–16 (Some regions celebrate July 13–16)",
+        "content": "History: Derived from the Chinese Qixi Festival and the legend of the Weaver Princess (Orihime) and the Cowherd (Hikoboshi), lovers separated by the Milky Way who can only meet on the 7th day of the 7th month.\n\nCelebration: Celebrations focus on making wishes; people write their personal aspirations on colorful strips of paper called Tanzaku and hang them on bamboo branches along with other paper origami decorations like cranes (for longevity) and nets (for good harvests). In major cities like Sendai, shopping arcades are transformed by massive, floor-length streamers made of washi paper that rustle in the wind, symbolizing the threads of the Weaver Princess.",
+        "picture_url": "/images/japan/tanabata.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      }
+    ]
+  },
+  {
+    "country": "indonesia",
+    "type": "festival",
+    "date_updated": "2025-12-22T18:13:00Z",
+    "contents": [
+      {
+        "title": "Nyepi (Day of Silence)",
+        "date": "1st day of the 10th month (Saka Calendar)",
+        "content": "History: Marks the New Year of the Saka calendar (brought from India). It commemorates the peace established after legendary battles between mythical kings.\n\nCelebration: The celebration is a dramatic contrast of noise and silence; on Pengerupukan (New Year's Eve), villagers parade Ogoh-Ogoh—giant, grotesque demonic statues—through the streets with torches and gamelan music to lure out and confuse evil spirits, often burning the statues afterward. At 6:00 AM the next morning, the entire island of Bali falls dead silent for 24 hours under Catur Brata (four prohibitions): no fire/light, no work, no travel, and no entertainment, forcing a day of absolute self-reflection and meditation.",
+        "picture_url": "/images/indonesia/ogoh_ogoh_parade.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Galungan",
+        "date": "Every 210 days (Wednesday of Dungulan week)",
+        "content": "History: A Balinese Hindu festival celebrating the victory of dharma (truth) over adharma (evil), specifically the defeat of the tyrant Mayadenawa by the god Indra.\n\nCelebration: The island transforms visually as every household erects a Penjor—a tall, curved bamboo pole decorated with young coconut leaves and offerings—at their gate, symbolizing Mount Agung and gratitude for the earth’s produce. Families put on their finest traditional kebaya and sarongs to visit village temples for prayers, while 'Barong' dancers (mythical lion-like creatures) move from house to house, performing cleansing rituals to ward off negative spirits, with the festivities culminating in a great feast of Lawar.",
+        "picture_url": "/images/indonesia/galungan.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Yadnya Kasada",
+        "date": "14th day of the Kasada month",
+        "content": "History: Dates back to the 15th-century Majapahit era. Legend says a childless couple (Roro Anteng and Joko Seger) prayed to the mountain gods for children. They were granted 25 children on the condition that the youngest be sacrificed. Today, livestock and crops are used instead of humans.\n\nCelebration: In a display of deep devotion, the Tenggerese people wake before dawn to trek up the steep, sandy slopes of Mount Bromo, carrying offerings that range from crops and flowers to live chickens and goats. Upon reaching the rim of the active, smoking crater, they pray with the village shamans before throwing their offerings into the volcano as a sacrifice to Hyang Widhi Wasa (God); meanwhile, locals from lower villages stand inside the crater walls with nets, attempting to catch the offerings for good luck.",
+        "picture_url": "/images/indonesia/yadnya_kasada.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Sekaten",
+        "date": "Ends on 12th of Rabi al-Awwal (Islamic Calendar)",
+        "content": "History: Originated in the 15th century by the Wali Songo (nine saints) to spread Islam in Java. They used the Gamelan (traditional orchestra) to attract locals to the mosque to listen to sermons.\n\nCelebration: This week-long festival centers on the Royal Palaces (Kraton) of Yogyakarta and Surakarta, where two sacred Gamelan sets (musical ensembles) are played continuously for seven days, stopping only for prayers. The climax is Grebeg Mulud, where the Sultan sends out Gunungan—mountains of sticky rice, vegetables, and sweets—to the Great Mosque, where commoners fiercely scramble and fight to grab a piece of the food, believing it carries the Sultan's blessing and guarantees a good harvest.",
+        "picture_url": "/images/indonesia/sekaten.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Waisak (Vesak)",
+        "date": "Full moon of the 4th lunar month",
+        "content": "History: Commemorates three significant events in the life of Siddhartha Gautama (Buddha): his birth, enlightenment, and passing (Parinirvana).\n\nCelebration: Thousands of Buddhist monks and pilgrims gather at the majestic Borobudur Temple, participating in a solemn procession known as Pradaksina, where they circumambulate the temple three times while chanting mantras and sprinkling holy water. The spiritual energy peaks at night under the full moon when devotees meditate in deep silence, followed by the mesmerizing release of thousands of eco-friendly sky lanterns, each carrying a written wish for peace and enlightenment.",
+        "picture_url": "/images/indonesia/borobudur_temple.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      }
+    ]
+  },
+  {
+    "country": "malaysia",
+    "type": "festival",
+    "date_updated": "2025-12-22T18:13:00Z",
+    "contents": [
+      {
+        "title": "Hari Raya Aidilfitri",
+        "date": "1st day of Syawal (Islamic Calendar)",
+        "content": "History: An Islamic festival established by Prophet Muhammad after his migration to Medina. It marks the victory of spiritual endurance after a month of fasting (Ramadan).\n\nCelebration: The morning begins with prayers at the mosque and visiting the graves of loved ones, followed by the emotional ritual of Maaf Zahir dan Batin, where younger family members kneel before their elders to ask forgiveness for past wrongs. The rest of the month is a joyous social marathon of 'Open Houses,' where families open their doors to friends and neighbors of all races to feast on Rendang, Ketupat, and Kuih Raya, while children collect green packets of money (Duit Raya) and play with sparklers.",
+        "picture_url": "/images/malaysia/duit_raya.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Chinese New Year",
+        "date": "1st day of the 1st lunar month",
+        "content": "History: Based on the ancient myth of the beast Nian, which was afraid of the color red and loud noises. Villagers used firecrackers and red decorations to scare it away.\n\nCelebration: Uniquely in Malaysia, the celebration highlights the loud and messy tradition of 'Lo Hei' or tossing Yee Sang (a raw fish salad), where families stand around a round table and toss the ingredients high into the air with chopsticks while shouting auspicious phrases—the higher the toss, the better the luck. Days are filled with the deafening crackle of firecrackers, lion dance troupes performing at homes and offices to 'pluck the greens' (symbolizing wealth), and the giving of Ang Pao (red packets), ending with Chap Goh Mei where single women throw oranges into the sea to find a suitor.",
+        "picture_url": "/images/malaysia/lo_hei.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Thaipusam",
+        "date": "Full moon of the Tamil month Thai",
+        "content": "History: Celebrates the occasion when the Goddess Parvati gave her son, Lord Murugan, a divine spear (Vel) to vanquish the evil demon Soorapadman.\n\nCelebration: This is a visceral display of faith where devotees, often in a trance state, carry Kavadis—heavy, ornate steel frameworks attached to their bodies with sharp hooks and skewers piercing their skin, tongue, and cheeks—as an act of penance or thanksgiving. They walk barefoot for kilometers, accompanied by drumming and chanting supporters, to climb the 272 steps of the Batu Caves temple to offer milk pots (Paal Kudam) to Lord Murugan, showing no signs of pain or bleeding due to weeks of spiritual preparation and fasting.",
+        "picture_url": "/images/malaysia/thaipusam.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Hari Kaamatan (Harvest Festivals in Sabah)",
+        "date": "May 30-31",
+        "content": "History: Kaamatan is Sabah's ancient harvest festival, rooted in the legend of Huminodun, a divine maiden who sacrificed her body to become the rice and crops that saved her people from famine, making rice sacred.\n\nCelebration: Celebrated by the Kadazan-Dusun people, the festival is a spiritual reverence to Bambarayon (the rice spirit) and begins with the Magavau ritual, performed by the Bobohizan (high priestesses) to heal the rice spirit and guide it safely to the barn. The month-long celebration is fueled by 'Aramaiti' (the spirit of drinking and merrymaking) featuring free-flowing Tapai or Lihing (rice wine) and traditional sports like Rampapanau (bamboo stilt walking) and Migazat Dukug (tug-of-war). However, the undisputed highlight is the state-level Unduk Ngadau, a cultural beauty pageant that honors the legend of Huminodun.",
+        "picture_url": "/images/malaysia/kaamatan.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Gawai Dayak (Harvest Festivals in Sarawak)",
+        "date": "June 1-2",
+        "content": "History: Gawai is more of a Thanksgiving festival to express gratitude towards the bountiful yields and celebrate unity as well as the planning of future prospects. Hari Gawai was officially recognised and first celebrated formally on June 1, 1965. Before that, the Dayak people would typically begin the festivities after the harvest season in April or May.\n\nCelebration: Held by the Dayak communities (Iban, Bidayuh, and Orang Ulu), the festivities center on the traditional longhouses (Rumah Panjai), beginning on the eve with the Muai Antu Rua ritual to cast away bad luck, followed by the Miring ceremony where offerings of eggs, tobacco, and rice cakes are placed for the gods. As the clock strikes midnight, the Tuai Rumah (village chief) leads the toast of Ai Pengayu (tuak/rice wine for longevity) with the greeting 'Gayu Guru Gerai Nyamai'. The celebration continues for days with the hypnotic Ngajat warrior dance and the erecting of the Ranyai tree.",
+        "picture_url": "/images/malaysia/gawai_dayak.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Deepavali (Diwali)",
+        "date": "new moon night (Amavasya) in the lunisolar month of Kartika (around Oct-Nov)",
+        "content": "History: The 'Festival of Lights,' originating from ancient Hindu scriptures. It commonly celebrates the return of Lord Rama after 14 years of exile or Lord Krishna’s defeat of the demon Narakasura.\n\nCelebration: The Deepavali starts before dawn with a ritual oil bath (Ganga Snanam) to cleanse the body and soul, symbolizing a bath in the holy Ganges river. Homes are turned into vibrant art exhibits with Kolam—intricate floor designs made from colored rice or chalk at the entrance to feed insects (an act of charity) and welcome the Goddess Lakshmi—and at night, rows of clay oil lamps (Diyas) are lit to banish darkness, while families enjoy sweetmeats like Laddu and Murukku.",
+        "picture_url": "/images/malaysia/deepavali.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      }
+    ]
+  },
+  {
+    "country": "south_korea",
+    "type": "festival",
+    "date_updated": "2025-12-22T18:13:00Z",
+    "contents": [
+      {
+        "title": "Seollal (Lunar New Year)",
+        "date": "1st day of the 1st lunar month",
+        "content": "History: Seollal has deep historical roots stretching back centuries, heavily influenced by Confucian traditions. Originally, it served as a significant milestone for agricultural communities, marking a time to pause, reflect, and prepare for the upcoming farming season. Over time, the festival evolved from these agrarian origins—particularly those from the Joseon Dynasty—into a family-centric holiday focused on reinforcing familial bonds and paying respect to ancestors.\n\nCelebration: The central ritual is Sebae, where younger family members in traditional Hanbok perform a deep, formal bow to their elders, wishing them blessings for the new year, after which they receive Sebaetdon (New Year’s money) in silk bags. The family then gathers to eat Tteokguk (sliced rice cake soup), a dish that signifies purity and the gaining of one year in age, followed by playing traditional folk games like Yut Nori (a board game with wooden sticks) and kite flying.",
+        "picture_url": "/images/south_korea/seollal.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Chuseok (Korean Thanksgiving)",
+        "date": "15th day of the 8th lunar month",
+        "content": "History: Originates from the Silla Kingdom (around 2,000 years ago) as a month-long weaving contest between two teams of women. The losing team prepared food for the winners.\n\nCelebration: Days before the holiday, families travel to ancestral gravesites for Beolcho, the duty of clearing weeds and tidying the area, followed by Seongmyo, a bowing ritual to pay respects. On the day itself, a Charye table is set with freshly harvested rice, fruits, and Songpyeon (half-moon rice cakes steamed over pine needles) as an offering to ancestors, and in the evening, women in some regions join hands in a large circle under the full moon to sing and perform the Ganggangsullae dance.",
+        "picture_url": "/images/south_korea/chuseok.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Dano",
+        "date": "5th day of the 5th lunar month",
+        "content": "History: An ancient holiday on the 5th day of the 5th lunar month, traditionally marking the end of the sowing season where the farmers prayed for an abundant harvest during that time.\n\nCelebration: Traditionally a day to prepare for the summer heat, women wash their hair in water boiled with Changpo (sweet flag/iris) to give it sheen and ward off evil spirits, while men participate in Ssireum (traditional wrestling) matches in sandpits. It is customary to eat Surichwi rice cakes (stamped with a wheel pattern) and gift traditional fans to friends and family to help them stay cool during the coming summer.",
+        "picture_url": "/images/south_korea/dano.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Daeboreum",
+        "date": "15th day of the 1st lunar month (First Full Moon)",
+        "content": "History: Daeboreum, or the 'Great Full Moon Festival,' can be traced back to the Three Kingdoms Period and is celebrated on the 15th day of a new lunar year. Established to promote unity and solidarity, the festival starts on Seollal and culminates in various rituals 15 days later.\n\nCelebration: To celebrate the first full moon, people start the day by cracking hard-shelled nuts (walnuts, pine nuts, peanuts) with their teeth—a practice called Bureom—believing the loud crack will scare away spirits and strengthen their teeth and skin for the year. The festivities culminate at night with Daljip Taeugi, where large moon houses made of straw and pine branches are burned in a bonfire to ward off bad luck, often accompanied by Jwibulnori, where people spin cans filled with burning charcoal to create circles of fire in the fields.",
+        "picture_url": "/images/south_korea/daeboreum.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Buddha’s Birthday",
+        "date": "8th day of the 4th lunar month",
+        "content": "History: Buddhism was introduced to Korea in the 4th century during the Three Kingdoms Period. It quickly became a cornerstone of Korean culture and spirituality. The celebration of Buddha’s Birthday is believed to have begun not long after Buddhism’s introduction, which is established to honor the birth of Prince Siddhartha.\n\nCelebration: Temples across the country offer free vegetarian meals (usually Bibimbap and tea) to all visitors regardless of faith, fostering a spirit of generosity. The visual highlight is the Yeondeunghoe (Lotus Lantern Festival), where a river of thousands of participants carries glowing, handmade lanterns shaped like lotuses, dragons, and elephants through the streets of Seoul, symbolizing the light of wisdom dispelling the darkness of ignorance.",
+        "picture_url": "/images/south_korea/buddha_birthday.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      }
+    ]
+  },
+  {
+    "country": "thailand",
+    "type": "festival",
+    "date_updated": "2025-12-22T18:13:00Z",
+    "contents": [
+      {
+        "title": "Songkran",
+        "date": "April 13–15",
+        "content": "History: Derived from the Sanskrit word Sankranti, meaning to ‘step into’, ‘enter’ or ‘pass into’. It describes the monthly movement or ‘astrological passage’ within the zodiac from one sphere to the next. It marks the traditional solar New Year.\n\nCelebration: What began as a gentle tradition of Rod Nam Dum Hua—pouring scented water over the palms of elders and Buddha statues to ask for forgiveness and blessings—has evolved into the world's biggest water fight. For three days, streets are closed as pickup trucks loaded with icy water drums and people armed with super-soakers engage in a friendly nationwide war, smearing white talcum powder (symbolizing protection) on each other’s faces, while temples host the contemplative building of elaborate sand pagodas adorned with flags to make merit.",
+        "picture_url": "/images/thailand/songkran.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Loy Krathong",
+        "date": "Full moon of the 12th Thai lunar month",
+        "content": "History: Believed to have started in the Sukhothai Kingdom (13th century) to honor the Goddess of Water, Phra Mae Khongkha, and apologize for polluting the rivers.\n\nCelebration: Under the full moon, waterways across the kingdom are illuminated by millions of Krathongs—lotus-shaped baskets/lantern crafted from banana trunks and leaves, holding a candle, incense, and a coin. Thais kneel by the water's edge, light the candle, make a wish, and gently push the basket into the current, often placing a strand of hair or fingernail clipping inside to symbolize the floating away of anger, grief, and bad luck from the previous year, paying homage to the Water Goddess Phra Mae Khongkha.",
+        "picture_url": "/images/thailand/loy_krathong.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Phi Ta Khon (Ghost Festival)",
+        "date": "Selected by spirit mediums (usually June/July)",
+        "content": "History: Part of a Buddhist merit-making holiday. It reenacts the legend of Prince Vessantara’s return to his city, which was so joyous it supposedly woke the dead to join the celebration.\n\nCelebration: In the Dan Sai district, young men don terrifying yet colorful masks made from coconut husks and steamed rice steamers, painted with fierce faces and long noses, and wear costumes made of sewn-together fabric strips. They parade through town ringing cowbells and waving wooden phalluses (symbols of fertility) to tease spectators, reenacting the legend of a party so fun that both humans and ghosts attended, eventually ending at the temple for the firing of bamboo rockets and Buddhist sermons.",
+        "picture_url": "/images/thailand/phi_ta_khon.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Bun Bang Fai (Rocket Festival)",
+        "date": "Usually 2nd weekend of May",
+        "content": "History: An ancient fertility rite from pre-Buddhist times practiced by the Lao and Isan people. It invokes Phaya Thaen, the god of rain, to send rainfall for the rice planting season.\n\nCelebration: Villagers collaborate for weeks to construct massive, ornately decorated bamboo or PVC rockets packed with gunpowder, which are paraded on floats accompanied by traditional dancers and musicians drinking rice wine. The climax is a high-stakes competition to see whose rocket flies the highest to 'poke' the heavens and wake the Rain God Phaya Thaen; successful launches are cheered, while teams whose rockets fail to ignite or explode on the ground are thrown into muddy puddles as a playful punishment.",
+        "picture_url": "/images/thailand/bun_bang_fai.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      },
+      {
+        "title": "Vegetarian Festival (Tesagan Gin Je)",
+        "date": "1st–9th day of the 9th Chinese lunar month",
+        "content": "History: Originated in Phuket in the 1800s when a Chinese opera troupe fell ill. They adopted a strict vegetarian diet and prayed to the Nine Emperor Gods to be cured.\n\nCelebration: Devotees dressed entirely in white observe a strict 10-day vegan diet to cleanse the body, but the spectacle lies in the processions of the Mah Song (spirit mediums). These mediums enter a trance state and perform shocking acts of self-mortification to shift bad luck away from the community, such as piercing their cheeks with swords, umbrellas, or bicycle frames, and walking barefoot over beds of burning coals, all while onlookers set off deafening chains of firecrackers to drive away evil spirits.",
+        "picture_url": "/images/thailand/vegetarian_festival.jpg",
+        "date_created": "2025-12-22T18:13:00Z"
+      }
+    ]
+  }
+]
