@@ -2,6 +2,7 @@ require('dotenv').config();
 
 const express = require('express');
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
 const cors = require('cors');
 const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
@@ -11,6 +12,9 @@ const connectDB = require('./lib/mongodb');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Trust proxy for Vercel (required for secure cookies behind proxy)
+app.set('trust proxy', 1);
 
 // Middleware to ensure DB connection on each request (for serverless)
 app.use(async (req, res, next) => {
@@ -35,15 +39,22 @@ app.use(
   })
 );
 
-// Session configuration
+// Session configuration with MongoDB store for serverless
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
+    store: MongoStore.create({
+      mongoUrl: process.env.MONGODB_URI,
+      ttl: 24 * 60 * 60, // 24 hours
+      autoRemove: 'native',
+    }),
     cookie: {
       secure: process.env.NODE_ENV === 'production',
       httpOnly: true,
+      sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+      domain: process.env.NODE_ENV === 'production' ? '.smoltako.space' : undefined,
       maxAge: 24 * 60 * 60 * 1000, // 24 hours
     },
   })
