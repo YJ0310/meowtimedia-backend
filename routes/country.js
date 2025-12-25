@@ -149,8 +149,8 @@ router.get('/:slug/quiz', async (req, res) => {
     const { slug } = req.params;
     const QUIZ_SIZE = 10; // Number of questions per quiz
     
-    // Normalize slug for database query (e.g., "south-korea" -> "south_korea")
-    const countryName = slug.replace(/-/g, '_');
+    // Keep slug as-is since database uses "south-korea" format, not "south_korea"
+    const countryName = slug;
     
     // Find all questions for this country
     const allQuestions = await Question.find({ 

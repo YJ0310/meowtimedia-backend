@@ -1682,7 +1682,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738673"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When is Seollal celebrated?",
   "answer": "A",
   "options": {
@@ -1696,7 +1696,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738674"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the formal bow performed during Seollal called?",
   "answer": "B",
   "options": {
@@ -1710,7 +1710,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738675"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the New Year's money given during Seollal called?",
   "answer": "C",
   "options": {
@@ -1724,7 +1724,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738676"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What soup is eaten during Seollal to gain a year in age?",
   "answer": "D",
   "options": {
@@ -1738,7 +1738,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738677"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What traditional game uses wooden sticks during Seollal?",
   "answer": "A",
   "options": {
@@ -1752,7 +1752,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738678"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When is Chuseok celebrated?",
   "answer": "B",
   "options": {
@@ -1766,7 +1766,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738679"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "Which kingdom did Chuseok originate from?",
   "answer": "C",
   "options": {
@@ -1780,7 +1780,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867a"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the duty of clearing weeds at gravesites called?",
   "answer": "D",
   "options": {
@@ -1794,7 +1794,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867b"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the half-moon rice cakes during Chuseok called?",
   "answer": "A",
   "options": {
@@ -1808,7 +1808,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867c"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the circle dance performed under the full moon called?",
   "answer": "B",
   "options": {
@@ -1822,7 +1822,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867d"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When is Dano celebrated?",
   "answer": "C",
   "options": {
@@ -1836,7 +1836,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867e"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What plant is used to wash hair during Dano?",
   "answer": "D",
   "options": {
@@ -1850,7 +1850,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473867f"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the traditional wrestling during Dano called?",
   "answer": "A",
   "options": {
@@ -1864,7 +1864,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738680"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the wheel-patterned rice cakes eaten during Dano called?",
   "answer": "B",
   "options": {
@@ -1878,7 +1878,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738681"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What does Daeboreum mean?",
   "answer": "C",
   "options": {
@@ -1892,7 +1892,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738682"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When is Daeboreum celebrated?",
   "answer": "D",
   "options": {
@@ -1906,7 +1906,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738683"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the practice of cracking nuts with teeth called?",
   "answer": "A",
   "options": {
@@ -1920,7 +1920,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738684"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the bonfire of straw houses during Daeboreum called?",
   "answer": "B",
   "options": {
@@ -1934,7 +1934,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738685"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the spinning burning charcoal practice called?",
   "answer": "C",
   "options": {
@@ -1948,7 +1948,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738686"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When was Buddhism introduced to Korea?",
   "answer": "D",
   "options": {
@@ -1962,7 +1962,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738687"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "When is Buddha's Birthday celebrated?",
   "answer": "A",
   "options": {
@@ -1976,7 +1976,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738688"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the Lotus Lantern Festival called?",
   "answer": "B",
   "options": {
@@ -1990,7 +1990,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738689"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What philosophy states food and medicine have the same root?",
   "answer": "C",
   "options": {
@@ -2004,7 +2004,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868a"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "How many colors are in the Obangsaek philosophy?",
   "answer": "D",
   "options": {
@@ -2018,7 +2018,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868b"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the red chili flakes in Kimchi called?",
   "answer": "A",
   "options": {
@@ -2032,7 +2032,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868c"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "How long has Kimchi been consumed according to historical records?",
   "answer": "B",
   "options": {
@@ -2046,7 +2046,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868d"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the communal practice of preparing Kimchi called?",
   "answer": "C",
   "options": {
@@ -2060,7 +2060,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868e"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the chili paste used in Bibimbap called?",
   "answer": "D",
   "options": {
@@ -2074,7 +2074,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473868f"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the seasoned vegetables in Bibimbap called?",
   "answer": "A",
   "options": {
@@ -2088,7 +2088,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738690"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "Which Joseon Period dish did Bibimbap derive from?",
   "answer": "B",
   "options": {
@@ -2102,7 +2102,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738691"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the white rice cakes in Tteokguk called?",
   "answer": "C",
   "options": {
@@ -2116,7 +2116,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738692"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What does the white color of Tteokguk symbolize?",
   "answer": "D",
   "options": {
@@ -2130,7 +2130,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738693"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What do the sliced coin-like shapes in Tteokguk represent?",
   "answer": "A",
   "options": {
@@ -2144,7 +2144,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738694"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What is the wine drunk on Daeboreum called?",
   "answer": "B",
   "options": {
@@ -2158,7 +2158,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738695"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What does Gwibalki-sul mean?",
   "answer": "C",
   "options": {
@@ -2172,7 +2172,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738696"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What percentage of Koreans share the surname Kim?",
   "answer": "D",
   "options": {
@@ -2186,7 +2186,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738697"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What are the three most common Korean surnames?",
   "answer": "A",
   "options": {
@@ -2200,7 +2200,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738698"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What percentage of Korean women has had cosmetic procedures?",
   "answer": "B",
   "options": {
@@ -2214,7 +2214,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc544738699"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What does the government monitor during Kimchi Crisis years?",
   "answer": "C",
   "options": {
@@ -2228,7 +2228,7 @@
   "_id": {
     "$oid": "69480d80c2ba4cc54473869a"
   },
-  "country": "korea",
+  "country": "south-korea",
   "text": "What has been used to transport cabbage during Kimchi Crisis?",
   "answer": "D",
   "options": {
