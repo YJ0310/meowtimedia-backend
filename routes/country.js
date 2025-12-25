@@ -4,7 +4,7 @@ const { Content, Quiz, User } = require('../models');
 const { isAuthenticated } = require('../middleware/auth');
 
 // Stamp unlock threshold - minimum score percentage to earn a stamp
-const STAMP_THRESHOLD = 0.7; // 70%
+const STAMP_THRESHOLD = 0.8; // 80% (8/10 correct)
 
 /**
  * @route   GET /country/:slug
@@ -74,13 +74,26 @@ router.get('/:slug', async (req, res) => {
 });
 
 /**
+ * Helper function to shuffle an array (Fisher-Yates algorithm)
+ */
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+/**
  * @route   GET /country/:slug/quiz
- * @desc    Get quiz questions for a country
+ * @desc    Get random 10 quiz questions for a country with shuffled options
  * @access  Public (but frontend requires auth)
  */
 router.get('/:slug/quiz', async (req, res) => {
   try {
     const { slug } = req.params;
+    const QUIZ_SIZE = 10; // Number of questions per quiz
     
     // Normalize slug for database query
     const countryName = slug.replace(/-/g, '_');
@@ -97,21 +110,54 @@ router.get('/:slug/quiz', async (req, res) => {
       });
     }
 
-    // Combine all quizzes for this country
+    // Combine all questions from all quizzes for this country
     const allQuestions = quizzes.flatMap(quiz => 
       quiz.questions.map(q => ({
-        id: q.id,
+        originalId: q.id,
         question: q.text,
-        options: [q.options.A, q.options.B, q.options.C, q.options.D],
-        correctAnswer: ['A', 'B', 'C', 'D'].indexOf(q.correctAnswer),
+        options: {
+          A: q.options.A,
+          B: q.options.B,
+          C: q.options.C,
+          D: q.options.D,
+        },
+        correctAnswer: q.correctAnswer, // 'A', 'B', 'C', or 'D'
       }))
     );
+
+    // Shuffle all questions and take random 10 (or less if not enough)
+    const shuffledQuestions = shuffleArray(allQuestions);
+    const selectedQuestions = shuffledQuestions.slice(0, Math.min(QUIZ_SIZE, shuffledQuestions.length));
+
+    // For each question, shuffle the options and track the new correct answer index
+    const processedQuestions = selectedQuestions.map((q, index) => {
+      // Create array of option objects with their original keys
+      const optionsArray = [
+        { key: 'A', text: q.options.A },
+        { key: 'B', text: q.options.B },
+        { key: 'C', text: q.options.C },
+        { key: 'D', text: q.options.D },
+      ];
+
+      // Shuffle the options
+      const shuffledOptions = shuffleArray(optionsArray);
+
+      // Find the new index of the correct answer
+      const correctAnswerIndex = shuffledOptions.findIndex(opt => opt.key === q.correctAnswer);
+
+      return {
+        id: index + 1,
+        question: q.question,
+        options: shuffledOptions.map(opt => opt.text),
+        correctAnswer: correctAnswerIndex,
+      };
+    });
 
     res.json({
       success: true,
       country: slug,
-      totalQuestions: allQuestions.length,
-      questions: allQuestions,
+      totalQuestions: processedQuestions.length,
+      questions: processedQuestions,
     });
   } catch (error) {
     console.error('Error fetching quiz:', error);
