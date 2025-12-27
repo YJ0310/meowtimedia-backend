@@ -7,6 +7,71 @@ const { isAuthenticated } = require('../middleware/auth');
 const REACTION_TYPES = ['😍', '😮', '🤯', '😂', '❤️'];
 
 /**
+ * @route   GET /reactions/all
+ * @desc    Get all reactions for all dashboard funfacts (for initial load)
+ * @access  Public
+ */
+router.get('/all', async (req, res) => {
+  try {
+    // Get all dashboard reactions with user info
+    const reactions = await Reaction.find({ funfactId: { $regex: /^dashboard-/ } })
+      .populate('userId', 'displayName avatar')
+      .sort({ createdAt: -1 });
+
+    // Group by funfactId, then by reaction type
+    const grouped = {};
+    reactions.forEach(r => {
+      if (!grouped[r.funfactId]) {
+        grouped[r.funfactId] = {};
+      }
+      const type = r.reactionType;
+      if (!grouped[r.funfactId][type]) {
+        grouped[r.funfactId][type] = {
+          count: 0,
+          users: [],
+        };
+      }
+      grouped[r.funfactId][type].count++;
+      grouped[r.funfactId][type].users.push({
+        id: r.userId._id,
+        displayName: r.userId.displayName,
+        avatar: r.userId.avatar,
+        reactedAt: r.createdAt,
+      });
+    });
+
+    // Get current user's reactions if authenticated
+    const userReactions = {};
+    if (req.user) {
+      reactions
+        .filter(r => r.userId._id.toString() === req.user._id.toString())
+        .forEach(r => {
+          userReactions[r.funfactId] = r.reactionType;
+        });
+    }
+
+    // Get last update timestamp
+    const lastUpdate = reactions.length > 0 
+      ? reactions[0].createdAt.toISOString()
+      : new Date().toISOString();
+
+    res.json({
+      success: true,
+      reactions: grouped,
+      userReactions,
+      lastUpdate,
+      totalReactions: reactions.length,
+    });
+  } catch (error) {
+    console.error('Error fetching all reactions:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error fetching all reactions',
+    });
+  }
+});
+
+/**
  * @route   GET /reactions/:funfactId
  * @desc    Get all reactions for a specific funfact with aggregated counts
  * @access  Public (anyone can see reactions)
