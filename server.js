@@ -7,6 +7,7 @@ const cors = require('cors');
 const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
 const countryRoutes = require('./routes/country');
+const reactionsRoutes = require('./routes/reactions');
 const { isAuthenticated } = require('./middleware/auth');
 const connectDB = require('./lib/mongodb');
 
@@ -70,6 +71,7 @@ app.use(passport.session());
 // Routes
 app.use('/auth', authRoutes);
 app.use('/country', countryRoutes);
+app.use('/reactions', reactionsRoutes);
 
 // Home route
 app.get('/', (req, res) => {
@@ -86,6 +88,12 @@ app.get('/', (req, res) => {
         content: 'GET /country/:slug - Get country festivals, food, funfacts',
         quiz: 'GET /country/:slug/quiz - Get quiz questions',
         update: 'POST /country/:slug/update - Update quiz results (auth required)',
+      },
+      reactions: {
+        getByFunfact: 'GET /reactions/:funfactId - Get reactions for a funfact',
+        getByCountry: 'GET /reactions/country/:countrySlug - Get all reactions for a country',
+        addReaction: 'POST /reactions/:funfactId - Add/toggle reaction (auth required)',
+        removeReaction: 'DELETE /reactions/:funfactId - Remove reaction (auth required)',
       },
       protected: 'GET /api/protected',
     },

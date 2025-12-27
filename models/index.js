@@ -3,6 +3,7 @@ const Question = require('./Quiz');
 const FunFact = require('./FunFact');
 const Content = require('./Content');
 const SimpleFunFact = require('./SimpleFunFact');
+const Reaction = require('./Reaction');
 
 module.exports = {
   User,
@@ -10,4 +11,5 @@ module.exports = {
   FunFact,
   Content,
   SimpleFunFact,
+  Reaction,
 };
