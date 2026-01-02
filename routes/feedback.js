@@ -4,6 +4,17 @@ const Feedback = require('../models/Feedback');
 const User = require('../models/User');
 const { isAuthenticated } = require('../middleware/auth');
 
+// Helper: only allow admin / owner
+function requireAdminOrOwner(req, res, next) {
+  if (!req.user || (req.user.role !== 'admin' && req.user.role !== 'owner')) {
+    return res.status(403).json({
+      success: false,
+      message: 'Admin access required',
+    });
+  }
+  next();
+}
+
 // GET /feedback/status - Check if user has submitted feedback
 router.get('/status', isAuthenticated, async (req, res) => {
   try {
@@ -100,9 +111,8 @@ router.post('/', isAuthenticated, async (req, res) => {
 });
 
 // GET /feedback/all - Admin endpoint to get all feedback (optional)
-router.get('/all', isAuthenticated, async (req, res) => {
+router.get('/all', isAuthenticated, requireAdminOrOwner, async (req, res) => {
   try {
-    // Only allow admin users (you can customize this check)
     const feedbacks = await Feedback.find()
       .populate('userId', 'displayName email avatar')
       .sort({ createdAt: -1 });
@@ -117,6 +127,86 @@ router.get('/all', isAuthenticated, async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Failed to fetch feedback',
+    });
+  }
+});
+
+// GET /feedback/summary - Aggregated summary for admin console
+router.get('/summary', isAuthenticated, requireAdminOrOwner, async (req, res) => {
+  try {
+    const totalPromise = Feedback.countDocuments();
+
+    const avgPromise = Feedback.aggregate([
+      {
+        $group: {
+          _id: null,
+          avgEaseOfUse: { $avg: '$easeOfUse' },
+          avgRecommendation: { $avg: '$recommendation' },
+        },
+      },
+    ]);
+
+    const firstImpressionPromise = Feedback.aggregate([
+      { $group: { _id: '$firstImpression', count: { $sum: 1 } } },
+    ]);
+
+    const issuesPromise = Feedback.aggregate([
+      { $unwind: '$issues' },
+      { $group: { _id: '$issues', count: { $sum: 1 } } },
+    ]);
+
+    const referralPromise = Feedback.aggregate([
+      { $group: { _id: '$referral', count: { $sum: 1 } } },
+    ]);
+
+    const easeOfUsePromise = Feedback.aggregate([
+      { $group: { _id: '$easeOfUse', count: { $sum: 1 } } },
+      { $sort: { _id: 1 } },
+    ]);
+
+    const recommendationPromise = Feedback.aggregate([
+      { $group: { _id: '$recommendation', count: { $sum: 1 } } },
+      { $sort: { _id: 1 } },
+    ]);
+
+    const [
+      total,
+      avgResult,
+      firstImpressionAgg,
+      issuesAgg,
+      referralAgg,
+      easeOfUseAgg,
+      recommendationAgg,
+    ] = await Promise.all([
+      totalPromise,
+      avgPromise,
+      firstImpressionPromise,
+      issuesPromise,
+      referralPromise,
+      easeOfUsePromise,
+      recommendationPromise,
+    ]);
+
+    const avgData = avgResult[0] || { avgEaseOfUse: 0, avgRecommendation: 0 };
+
+    res.json({
+      success: true,
+      summary: {
+        total,
+        avgEaseOfUse: avgData.avgEaseOfUse || 0,
+        avgRecommendation: avgData.avgRecommendation || 0,
+        firstImpression: firstImpressionAgg,
+        issues: issuesAgg,
+        referral: referralAgg,
+        easeOfUse: easeOfUseAgg,
+        recommendation: recommendationAgg,
+      },
+    });
+  } catch (error) {
+    console.error('Error building feedback summary:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Failed to build feedback summary',
     });
   }
 });

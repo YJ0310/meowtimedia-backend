@@ -75,6 +75,7 @@ app.use('/auth', authRoutes);
 app.use('/country', countryRoutes);
 app.use('/reactions', reactionsRoutes);
 app.use('/feedback', feedbackRoutes);
+app.use('/admin/feedback', feedbackRoutes);
 app.use('/admin', adminRoutes);
 
 // Home route
