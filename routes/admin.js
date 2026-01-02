@@ -8,7 +8,7 @@ const { isOwner, isAdmin } = require('../middleware/auth');
 // --- Owner Routes ---
 
 // Get all users
-router.get('/users', isOwner, async (req, res) => {
+router.get('/users', isAdmin, async (req, res) => {
   try {
     const users = await User.find({}, 'displayName email role adminExpiresAt avatar lastLogin');
     res.json({ success: true, users });
@@ -62,26 +62,62 @@ router.get('/candidates', isOwner, async (req, res) => {
 router.get('/feedback/summary', isAdmin, async (req, res) => {
   try {
     const totalFeedback = await Feedback.countDocuments();
-    const avgEaseOfUse = await Feedback.aggregate([
-      { $group: { _id: null, avg: { $avg: '$easeOfUse' } } }
-    ]);
-    const avgRecommendation = await Feedback.aggregate([
-      { $group: { _id: null, avg: { $avg: '$recommendation' } } }
-    ]);
     
-    // Issue counts
-    const issues = await Feedback.aggregate([
-      { $unwind: '$issues' },
-      { $group: { _id: '$issues', count: { $sum: 1 } } }
+    const [
+      avgStats,
+      issuesStats,
+      firstImpressionStats,
+      referralStats,
+      easeOfUseStats,
+      recommendationStats
+    ] = await Promise.all([
+      // Averages
+      Feedback.aggregate([
+        { $group: { 
+            _id: null, 
+            avgEaseOfUse: { $avg: '$easeOfUse' },
+            avgRecommendation: { $avg: '$recommendation' }
+        }}
+      ]),
+      // Issues
+      Feedback.aggregate([
+        { $unwind: '$issues' },
+        { $group: { _id: '$issues', count: { $sum: 1 } } },
+        { $sort: { count: -1 } }
+      ]),
+      // First Impression
+      Feedback.aggregate([
+        { $group: { _id: '$firstImpression', count: { $sum: 1 } } },
+        { $sort: { count: -1 } }
+      ]),
+      // Referral
+      Feedback.aggregate([
+        { $group: { _id: '$referral', count: { $sum: 1 } } },
+        { $sort: { count: -1 } }
+      ]),
+      // Ease of Use Distribution
+      Feedback.aggregate([
+        { $group: { _id: '$easeOfUse', count: { $sum: 1 } } },
+        { $sort: { _id: 1 } }
+      ]),
+      // Recommendation Distribution
+      Feedback.aggregate([
+        { $group: { _id: '$recommendation', count: { $sum: 1 } } },
+        { $sort: { _id: 1 } }
+      ])
     ]);
 
     res.json({
       success: true,
       summary: {
         total: totalFeedback,
-        avgEaseOfUse: avgEaseOfUse[0]?.avg || 0,
-        avgRecommendation: avgRecommendation[0]?.avg || 0,
-        issues
+        avgEaseOfUse: avgStats[0]?.avgEaseOfUse || 0,
+        avgRecommendation: avgStats[0]?.avgRecommendation || 0,
+        issues: issuesStats,
+        firstImpression: firstImpressionStats,
+        referral: referralStats,
+        easeOfUse: easeOfUseStats,
+        recommendation: recommendationStats
       }
     });
   } catch (error) {
