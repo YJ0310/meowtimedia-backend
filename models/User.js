@@ -50,6 +50,14 @@ const userSchema = new mongoose.Schema({
   avatar: {
     type: String,
   },
+  role: {
+    type: String,
+    enum: ['user', 'admin', 'owner'],
+    default: 'user',
+  },
+  adminExpiresAt: {
+    type: Date,
+  },
   // Future fields for user customization
   username: {
     type: String,
