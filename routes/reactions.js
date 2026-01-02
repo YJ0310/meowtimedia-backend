@@ -18,9 +18,12 @@ router.get('/all', async (req, res) => {
       .populate('userId', 'displayName avatar')
       .sort({ createdAt: -1 });
 
+    // Filter out reactions where userId is null (user no longer exists)
+    const validReactions = reactions.filter(r => r.userId !== null);
+
     // Group by funfactId, then by reaction type
     const grouped = {};
-    reactions.forEach(r => {
+    validReactions.forEach(r => {
       if (!grouped[r.funfactId]) {
         grouped[r.funfactId] = {};
       }
@@ -43,7 +46,7 @@ router.get('/all', async (req, res) => {
     // Get current user's reactions if authenticated
     const userReactions = {};
     if (req.user) {
-      reactions
+      validReactions
         .filter(r => r.userId._id.toString() === req.user._id.toString())
         .forEach(r => {
           userReactions[r.funfactId] = r.reactionType;
@@ -51,8 +54,8 @@ router.get('/all', async (req, res) => {
     }
 
     // Get last update timestamp
-    const lastUpdate = reactions.length > 0 
-      ? reactions[0].createdAt.toISOString()
+    const lastUpdate = validReactions.length > 0 
+      ? validReactions[0].createdAt.toISOString()
       : new Date().toISOString();
 
     res.json({
@@ -60,7 +63,7 @@ router.get('/all', async (req, res) => {
       reactions: grouped,
       userReactions,
       lastUpdate,
-      totalReactions: reactions.length,
+      totalReactions: validReactions.length,
     });
   } catch (error) {
     console.error('Error fetching all reactions:', error);
@@ -85,9 +88,12 @@ router.get('/:funfactId', async (req, res) => {
       .populate('userId', 'displayName avatar')
       .sort({ createdAt: -1 });
 
+    // Filter out reactions where userId is null (user no longer exists)
+    const validReactions = reactions.filter(r => r.userId !== null);
+
     // Aggregate reactions by type
     const aggregated = REACTION_TYPES.reduce((acc, type) => {
-      const typeReactions = reactions.filter(r => r.reactionType === type);
+      const typeReactions = validReactions.filter(r => r.reactionType === type);
       if (typeReactions.length > 0) {
         acc[type] = {
           count: typeReactions.length,
@@ -305,6 +311,48 @@ router.delete('/:funfactId', isAuthenticated, async (req, res) => {
     res.status(500).json({
       success: false,
       message: 'Error removing reaction',
+    });
+  }
+});
+
+/**
+ * @route   POST /reactions/cleanup
+ * @desc    Remove reactions with non-existent user IDs
+ * @access  Private (admin only)
+ */
+router.post('/cleanup', isAuthenticated, async (req, res) => {
+  try {
+    // Only allow admin users to perform cleanup
+    if (!req.user || req.user.role !== 'admin') {
+      return res.status(403).json({
+        success: false,
+        message: 'Access denied. Admin privileges required.',
+      });
+    }
+
+    // Find all reactions
+    const allReactions = await Reaction.find({});
+    let removedCount = 0;
+
+    // Check each reaction's user existence
+    for (const reaction of allReactions) {
+      const userExists = await require('../models/User').findById(reaction.userId);
+      if (!userExists) {
+        await Reaction.findByIdAndDelete(reaction._id);
+        removedCount++;
+      }
+    }
+
+    res.json({
+      success: true,
+      message: `Cleanup completed. Removed ${removedCount} orphaned reactions.`,
+      removedCount,
+    });
+  } catch (error) {
+    console.error('Error during reaction cleanup:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Error during cleanup process',
     });
   }
 });
