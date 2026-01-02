@@ -89,4 +89,64 @@ router.post('/candidates', isAdmin, async (req, res) => {
   }
 });
 
+// Approve candidate (Owner only)
+router.put('/candidates/:id/approve', isOwner, async (req, res) => {
+  try {
+    const { expiresIn } = req.body; // expiresIn in days, or undefined for permanent
+    
+    // Find candidate
+    const candidate = await Candidate.findById(req.params.id);
+    if (!candidate) {
+      return res.status(404).json({ success: false, message: 'Candidate not found' });
+    }
+
+    // Find user by email
+    const user = await User.findOne({ email: candidate.candidateEmail });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+
+    // Update user role to admin
+    const update = { role: 'admin' };
+    if (expiresIn) {
+      const date = new Date();
+      date.setDate(date.getDate() + parseInt(expiresIn));
+      update.adminExpiresAt = date;
+    } else {
+      update.adminExpiresAt = null; // Permanent admin
+    }
+
+    await User.findByIdAndUpdate(user._id, update);
+
+    // Update candidate status
+    candidate.status = 'approved';
+    await candidate.save();
+
+    res.json({ success: true, message: 'Candidate approved and promoted to admin' });
+  } catch (error) {
+    console.error('Error approving candidate:', error);
+    res.status(500).json({ success: false, message: 'Error approving candidate' });
+  }
+});
+
+// Reject candidate (Owner only)
+router.put('/candidates/:id/reject', isOwner, async (req, res) => {
+  try {
+    const candidate = await Candidate.findByIdAndUpdate(
+      req.params.id,
+      { status: 'rejected' },
+      { new: true }
+    );
+    
+    if (!candidate) {
+      return res.status(404).json({ success: false, message: 'Candidate not found' });
+    }
+
+    res.json({ success: true, message: 'Candidate rejected' });
+  } catch (error) {
+    console.error('Error rejecting candidate:', error);
+    res.status(500).json({ success: false, message: 'Error rejecting candidate' });
+  }
+});
+
 module.exports = router;
