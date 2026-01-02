@@ -12,7 +12,8 @@ const isAuthenticated = (req, res, next) => {
 // Middleware to check if user is owner
 const isOwner = (req, res, next) => {
   if (req.isAuthenticated()) {
-    if (req.user.email === 'yinjiasek@gmail.com' || req.user.role === 'owner') {
+    // Check against hardcoded owner email (matching ownerlist.json)
+    if (req.user.email === 'yinjiasek@gmail.com') {
       return next();
     }
   }
@@ -27,7 +28,6 @@ const isAdmin = (req, res, next) => {
   if (req.isAuthenticated()) {
     if (
       req.user.email === 'yinjiasek@gmail.com' ||
-      req.user.role === 'owner' ||
       req.user.role === 'admin'
     ) {
       // Check expiration if admin

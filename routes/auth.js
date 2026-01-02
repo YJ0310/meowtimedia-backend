@@ -116,6 +116,12 @@ router.get('/user', async (req, res) => {
       // Count total stamps
       const totalStamps = countriesProgress.filter(cp => cp.hasStamp).length;
 
+      // Determine role (Owner override)
+      let role = user.role || 'user';
+      if (user.email === 'yinjiasek@gmail.com') {
+        role = 'owner';
+      }
+
       res.json({
         success: true,
         user: {
@@ -125,6 +131,8 @@ router.get('/user', async (req, res) => {
           firstName: user.firstName,
           lastName: user.lastName,
           avatar: user.avatar,
+          role,
+          adminExpiresAt: user.adminExpiresAt,
           totalStamps,
           countriesProgress,
           feedbackStampCollectedAt: user.feedbackStampCollectedAt,
