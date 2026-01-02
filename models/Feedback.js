@@ -44,6 +44,18 @@ const feedbackSchema = new mongoose.Schema({
     type: String,
     maxlength: 1000,
   },
+  // Question 6: Referral
+  referral: {
+    type: String,
+    enum: [
+      'Sek Yin Jia',
+      'Foo Jia Qian',
+      'Cheah Chio Yuen',
+      'Errol Tay Lee Han',
+      'Lee Chang Xin'
+    ],
+    required: true,
+  },
   // Metadata
   createdAt: {
     type: Date,

@@ -33,6 +33,7 @@ router.post('/', isAuthenticated, async (req, res) => {
       issuesOther,
       recommendation,
       additionalFeedback,
+      referral,
     } = req.body;
 
     // Check if user already submitted feedback
@@ -45,7 +46,7 @@ router.post('/', isAuthenticated, async (req, res) => {
     }
 
     // Validate required fields
-    if (!firstImpression || !easeOfUse || !recommendation) {
+    if (!firstImpression || !easeOfUse || !recommendation || !referral) {
       return res.status(400).json({
         success: false,
         message: 'Please answer all required questions',
@@ -62,6 +63,7 @@ router.post('/', isAuthenticated, async (req, res) => {
       issuesOther: issues?.includes('other') ? issuesOther : undefined,
       recommendation,
       additionalFeedback,
+      referral,
       userAgent: req.headers['user-agent'],
     });
 
