@@ -8,6 +8,7 @@ const passport = require('./config/passport');
 const authRoutes = require('./routes/auth');
 const countryRoutes = require('./routes/country');
 const reactionsRoutes = require('./routes/reactions');
+const feedbackRoutes = require('./routes/feedback');
 const { isAuthenticated } = require('./middleware/auth');
 const connectDB = require('./lib/mongodb');
 
@@ -72,6 +73,7 @@ app.use(passport.session());
 app.use('/auth', authRoutes);
 app.use('/country', countryRoutes);
 app.use('/reactions', reactionsRoutes);
+app.use('/feedback', feedbackRoutes);
 
 // Home route
 app.get('/', (req, res) => {

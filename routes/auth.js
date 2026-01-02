@@ -127,6 +127,7 @@ router.get('/user', async (req, res) => {
           avatar: user.avatar,
           totalStamps,
           countriesProgress,
+          feedbackStampCollectedAt: user.feedbackStampCollectedAt,
           createdAt: user.createdAt,
           lastLoginAt: user.lastLoginAt,
         },

@@ -62,6 +62,10 @@ const userSchema = new mongoose.Schema({
   },
   // User progress tracking - enhanced with country progress
   countriesProgress: [countryProgressSchema],
+  // Feedback stamp tracking
+  feedbackStampCollectedAt: {
+    type: Date,
+  },
   // Account metadata
   createdAt: {
     type: Date,
