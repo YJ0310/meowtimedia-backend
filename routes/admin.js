@@ -63,6 +63,7 @@ router.get('/feedback', isAdmin, async (req, res) => {
   try {
     const feedback = await Feedback.find()
       .populate('userId', 'displayName email avatar')
+      .select('firstImpression firstImpressionOther easeOfUse issues issuesOther recommendation additionalFeedback referral createdAt userAgent')
       .sort({ createdAt: -1 });
     res.json({ success: true, feedback });
   } catch (error) {
